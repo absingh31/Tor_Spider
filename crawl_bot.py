@@ -1,3 +1,6 @@
+from get_domains import *
+from file_manage import *
+from link_finder import link_crawler
 from urllib.request import urlopen
 import tldextract
 
@@ -83,3 +86,15 @@ class Crawl_bot:
         return link_finder.page_urls()
 
 
+    @staticmethod
+    def add_url_to_queue(links):          # Queue data saves to project files
+        for url in links:
+            if (url in Crawl_bot.queue) or (url in Crawl_bot.data_crawled):
+                continue
+            Crawl_bot.queue.add(url)
+
+
+    @staticmethod
+    def update_folder():                    # Update the project directory
+        set_to_file(Crawl_bot.queue, Crawl_bot.queued_data)
+        set_to_file(Crawl_bot.data_crawled, Crawl_bot.crawled_data)
