@@ -1,0 +1,221 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<title> - Torduckin0</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=8" >
+		<meta name="keywords" content="groupware messaging collaboration" >
+		<link href="static/styles/webcit.css" rel="stylesheet" type="text/css">
+		<link href="static/styles/datepicker.css" rel="stylesheet" type="text/css">
+		<link href="static/styles/fineuploader.css" rel="stylesheet" type="text/css">
+		<link rel="alternate" title="RSS" href="/feed_rss?go=" type="application/rss+xml">
+
+		<link href="do_template?template=iconbar_user" rel="stylesheet" type="text/css">
+		<link href="static/styles/iconbaricns.css" rel="stylesheet" type="text/css" id="style_iconbar_icns" title="Default iconbar">
+		<link href="static/styles/iconbarpiconly.css" rel="alternate stylesheet" type="text/css" id="style_iconbar_piconly" title="Iconbar without text">
+		
+		<!--[if lte IE 8]>
+			<style type="text/css">@import url(static/styles/ie_lte8.css);</style>
+		<![endif]-->
+		<script type="text/javascript" src="static/prototype.js"></script> 
+		<script type="text/javascript" src="static/scriptaculous.js"></script> 
+		<script type="text/javascript" src="static/datepicker-dev.js"></script>
+		<script type="text/javascript" src="static/wcpref.js"></script>
+		<script type="text/javascript" src="static/table.js"></script>
+		<script type="text/javascript" src="static/wclib.js"></script>
+		<script type="text/javascript" src="static/authmethods.js"></script>
+		<script type="text/javascript" src="static/roomops.js"></script>
+		<script type="text/javascript" src="static/ctdldragdrop.js"></script>
+		<script type="text/javascript" src="static/modal.js"></script>
+		<script type="text/javascript" src="static/fineuploader.js"></script>
+
+	</head>
+<body>
+<div id="is_logged_in" style="display:none">no</div>
+<!-- begin modal box -->
+<div id="modal">
+	<div class="md-overlay-decorator">
+	</div>
+	<div class="md-overlay-wrap">
+		<div class="md-overlay">
+			<div class="md-dialog-decorator">
+			</div>
+			<div class="md-dialog-wrap">
+				<div class="md-dialog" id="dialog">
+					<div class="md-content" id="md-content">
+					  <div id="loginbox_topline_container">
+<div id="loginbox_title">
+You must be logged in to access this page.
+</div>
+<div id="loginbox_closebutton">
+<a href="javascript:toggleModal(0);">
+Close window&nbsp;<img src="static/webcit_icons/closewindow.gif" border="0" alt='Close window'></a>
+</div>
+</div>
+<br><br>
+<div class="login_message" id="login_errmsg"></div>
+<div id="auth_container">
+<div id="authbar">
+<ul id="button">
+<li class="ib_button" style='background-image: url("/static/webcit_icons/citadel-button-32x32.gif");'>
+    <a class="ib_button_link" href="javascript:authtoggle('authbox_userpass');" title="Torduckin0"><span>
+        Torduckin0
+    </span></a>
+</li>
+<li class="ib_button" style='background-image: url("/static/webcit_icons/openid-32x32.gif");'>
+    <a class="ib_button_link" href="javascript:authtoggle('authbox_openid');" title="OpenID"><span>
+        OpenID
+    </span></a>
+</li>
+<li class="ib_button" style='background-image: url("/static/webcit_icons/google-32x32.gif");'>
+    <a class="ib_button_link" href="javascript:authtoggle('authbox_google');" title="Google"><span>
+        Google
+    </span></a>
+</li>
+<li class="ib_button" style='background-image: url("/static/webcit_icons/yahoo-32x32.gif");'>
+    <a class="ib_button_link" href="javascript:authtoggle('authbox_yahoo');" title="Yahoo"><span>
+        Yahoo
+    </span></a>
+</li>
+<li class="ib_button" style='background-image: url("/static/webcit_icons/aol-32x32.gif");'>
+    <a class="ib_button_link" href="javascript:authtoggle('authbox_aol');" title="AOL"><span>
+        AOL/AIM
+    </span></a>
+</li>
+
+<li class="ib_button"></li>
+<li class="ib_button"></li>
+<li class="ib_button"></li>
+</ul>
+</div>
+
+<div class="authbox" id="authbox_userpass" style="display: block">
+<h2>Log in using a user name and password</h2>
+<form id="ajax_username_password_form" method="POST" action="ajax_login_username_password">
+<label for="uname">User name:</label>
+<input type="text" name="name" id="uname" onKeyPress="username_and_password_onkeypress(event);">
+<br><br>
+<label for="pname">Password:</label>
+<input type="password" name="pass" id="pname" onKeyPress="username_and_password_onkeypress(event);">
+<br><br>
+</form>
+<div class="logbuttons"><a href="javascript:ajax_try_username_and_password();">Log in</a></div>
+<div class="registernow"><a href="javascript:authtoggle('authbox_newuser');">New user?  Register now</a></div>
+</div>
+
+<div class="authbox" id="authbox_newuser" style="display: none">
+<h2>New user?  Register now</h2>
+enter the name and password you wish to use, and click &quot;New User.&quot; <br><br>
+<form id="ajax_newuser_form" method="POST" action="ajax_login_newuser">
+<label for="uname">User name:</label>
+<input type="text" name="name" id="uname" onKeyPress="newuser_onkeypress(event);">
+<br><br>
+<label for="pname">Password:</label>
+<input type="password" name="pass" id="pname" onKeyPress="newuser_onkeypress(event);">
+<br><br>
+</form>
+<div class="logbuttons"><a href="javascript:ajax_try_newuser();">New User</a></div>
+</div>
+
+<div class="authbox" id="authbox_openid" style="display: none">
+<h2>Log in using OpenID</h2>
+<form id="ajax_openid_form" method="POST" action="ajax_login_openid">
+OpenID URL:
+<input type="text" name="openid_url" id="openid_url" class="openid_urlarea" onKeyPress="return openid_onkeypress(event);">
+</form>
+<div class="logbuttons"><a href="javascript:ajax_try_openid();">Log in</a></div>
+</div>
+
+<div class="authbox" id="authbox_google" style="display: none">
+<h2>Log in using Google</h2>
+<div class="logbuttons"><a href="javascript:ajax_try_google();">Log in</a></div>
+</div>
+
+<div class="authbox" id="authbox_yahoo" style="display: none">
+<h2>Log in using Yahoo</h2>
+<div class="logbuttons"><a href="javascript:ajax_try_yahoo();">Log in</a></div>
+</div>
+
+<div class="authbox" id="authbox_aol" style="display: none">
+<h2>Log in using AOL or AIM</h2>
+<form id="ajax_aol_form" method="POST" action="ajax_login_aol">
+Enter your AOL or AIM screen name:
+<input type="text" name="aol_screenname" id="aol_screenname" class="openid_urlarea" onKeyPress="return aol_onkeypress(event);">
+</form>
+<div class="logbuttons"><a href="javascript:ajax_try_aol();">Log in</a></div>
+</div>
+
+<div class="authbox" id="authbox_success" style="display: none">
+	<br><br><br>
+	<div align="center"><h1>
+		<img src="static/webcit_icons/throbber.gif" alt="">
+		&nbsp;
+		Please wait...
+	</h1></div>
+</div>
+
+</div>
+
+						<!-- contents of modal box go here -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- end modal box -->
+
+<div id="global">
+<!--("end head.html")-->
+
+
+
+<!-- start login.html -->
+<div id="login_screen">
+		<div class="box">
+			<div class="boxlabel">Torduckin0 - powered by
+				<a href="http://www.citadel.org">Citadel</a>
+			</div>
+			<div class="boxcontent">
+				<div id="hellomsg"><div class="fmout-center">
+<br>Welcome to Torduckin0!
+<br>This is the collaboration Server for Torduckin.
+Feel free to crete an account and make yourself at home.
+-- MagusNet
+<br></div><br>
+</div>
+				
+				<div class="login_image"><img src="image?name=hello" alt=""></div>
+				<span class="logbuttons">
+					<a href="javascript:GetLoggedInFirst('do_welcome');">Log in</a>
+				</span>
+			</div>
+		</div>
+<!-- end login.html -->
+<script type="text/javascript">
+	GetLoggedInFirst('do_welcome');
+</script>
+<!-- start trailing.html -->
+<div id="important_message"
+
+style="visibility: hidden;"
+
+>
+<span class="imsg">
+
+</span><br>
+</div>
+
+
+<noscript><div id="noscript_warning">
+	WARNING: You have JavaScript disabled in your web browser.  Many functions of this system will not work properly.
+	</div></noscript>
+	<script type="text/javascript">
+		
+		if ( $("room_banner_override") && $("room_banner") ) {
+			$("room_banner").innerHTML = $("room_banner_override").innerHTML;
+		}
+	</script>
+</body>
+</html>
+

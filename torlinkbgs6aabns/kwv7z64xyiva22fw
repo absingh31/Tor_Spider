@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>DeepSec IDSC 2017 Europe - Vienna, November 14â17 2017</title>
+    <link rel="stylesheet" type="text/css" href="css/deepsec.css"/>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
+</head>
+<body class="index">
+
+<div class="centered">
+
+<div id="header">
+  <h1><a href="index.html"><img src="img/DeepSec-Logo.png" alt="DeepSec In-Depth Security Conference Logo"></a><img src="img/DeepSec-Date.png" alt="DeepSec 2017 Date"></h1>
+  <!--
+  <h2>
+    IN-DEPTH SECURITY CONFERENCE 2017 EUROPE - 14th to 17th November 2017<br>
+    The Imperial Riding School Vienna, Austria
+  </h2> -->
+</div>
+
+<div id="menu">
+  <ul>
+   <li id="menu_index"><a href="index.html">2017</a></li>
+   <li id="menu_schedule"><a href="schedule.html">Schedule</a></li>
+   <li id="menu_register"><a href="register.html">Register</a></li>
+   <li id="menu_venue"><a href="venue.html">Venue</a></li>
+   <li id="menu_cfp"><a href="cfp.html">C.f.P</a></li>
+   <li><a href="http://blog.deepsec.net/">Blog</a></li>
+   <li id="menu_archive"><a href="archives.html">Archives</a></li>
+   <li id="menu_intel"><a href="https://deepintel.net/">DeepINTEL</a></li>
+
+   
+
+  </ul>
+</div>
+
+<div id="content">
+
+<img src="img/DeepSec-Con.png">
+
+
+</div>
+
+<div id="main" class="withside">
+
+  <div class="side">
+    
+    <div class="sponsors">
+        
+        <h6>        <a href="cfp.html"><img src="img/ds17-cfp1.png" alt="C.f.P"></a>
+    </h6>
+        
+        <h4>Mithril Sponsors</h4>
+        <a href="https://www.digitalguardian.com/">Digital Guardian</a><br><br>
+        
+        <h4>Adamantium Sponsors</h4>
+        <a href="http://www.cert.at/" target="_blank"><img src="img/sponsors/cert-logo.png" alt="CERT.at"></a><br><br>
+        <a href="https://www.sec-consult.com/" target="_blank"><img src="img/sponsors/secconsult-logo.png" alt="SEC Consult"></a><br>
+        <h4>Durium Sponsors</h4>
+        <!-- <a href="http://www.fh-ooe.at/"><img src="img/sponsors/fhoe-logo.png" alt="FH OOe"></a><br>
+        <a href="https://www.sec4you.com/"><img src="img/sponsors/sec4you-logo.png" alt="SEC4YOU"></a>
+        <a href="https://www.google.com/"><img src="img/sponsors/google-logo.png" alt="Google"></a> -->
+      <div class="section"></div>
+      <div class="section">
+        <h4>Media Partners</h4>
+        <a href="http://fm4.orf.at/"><img src="img/sponsors/fm4-logo.png" alt="Radio FM4"></a>
+        <a href="http://www.infosecnews.org/"><img src="img/sponsors/infosec-logo.png" alt="ISN"></a><br>
+      </div>
+      <div class="section">
+        <h4>Academic Partners</h4>
+        <a href="http://www.issa.org/"><img src="img/sponsors/issa-logo.png"></a><br>
+	    <a href="http://www.sicherheitsforschung-magdeburg.de/"><img src="img/sponsors/mis-logo2.png"></a><br>
+      </div>
+      <h4>Community Partners</h4>
+      <a href="http://44con.com/"><img src="img/sponsors/44con-logo.png" alt="44con"></a>
+      <a href="https://www.securitybsides.org.uk/"><img src="img/sponsors/bsides-logo.png" alt="bsides"></a><br>
+      <a href="http://www.hackinthebox.org/"><img src="img/sponsors/hitb-logo.png" ></a><br>
+      <a href="http://www.thc.org/"><img src="img/sponsors/thc-logo.png" ></a><br>
+      <a href="https://c3w.at"><img src="img/sponsors/c3w-logo.png" alt="c3w"></a><br>
+    </div>
+    <div class="sponsorsend"></div>
+  </div>
+
+<h2>About DeepSec...</h2>
+
+<p>
+<i>The Call for Papers for DeepSec 2017 and the DeepINTEL event is open! Submit your talk now!</i> We are looking for talk and training submissions! 
+Make sure you follow the news on our <a href="http://blog.deepsec.net/">blog</a>.</i>
+</p>
+
+
+<div class="mission">
+  Bringing together the world's <em>most renowned security professionals</em> from <em>academics</em>,
+  <em>government</em>, <em>industry</em>, and the <em>underground hacking community</em>.
+</div>
+
+<p>
+<strong>Premiere: ROOTs 2017</strong><br>
+The <a href="http://www.roots-conference.org/">1st Reversing and Offensive-oriented Trends Symposium (ROOTs) 2017</a> will take place in 2017! It is an
+academic workshop co-located with the DeepSec conference on 16/17 November. The Call for Papers is open! See the
+<a href="http://blog.deepsec.net/call-papers-1st-reversing-offensive-oriented-trends-symposium-roots-2017/">ROOTs article</a> on
+our blog. You can go <a href="https://easychair.org/conferences/?conf=roots2017">directly to the CfP manager</a>.
+</p>
+
+<p>
+<strong>Neutral</strong><br>
+We are neutral and we stick to our principles: If a topic is interesting and important we will consider a submission
+for our conferences. We will not lock out individuals or organizations from submitting a talk or attending our conferences
+and we hope, that potential visitors share our stance and posture.
+</p>
+
+<p>
+<strong>Novelty, Quality &amp; Impact</strong><br>
+When selecting talks or trainings from our submissions we strictly make no discrimination or preference based on anything
+else than the quality, novelty, impact or relevance of that specific submission. Often we prefer to invite a newcomer to
+the stage if the content is more promising than the âsafe choiceâ of well established truths, which are repeated all over
+the place. We even observe sometimes that superstars of the security circus lack brilliance, novelty and something that we
+really love: Controversy, a little bit of provocation and alternatives to the mainstream.
+</p>
+
+<p>
+<strong>Treat Each Other With Kindness And Respect</strong><br>
+We want to encourage individuals, organizations and countries to meet and exchange, to improve overall security and trust.
+Letâs create neutral ground where we can freely talk about ideas and points of view. We do not tolerate harassment of
+conference participants in any form. And, in case you need anything - our team is happy to help you!
+</p>
+
+<p>
+<strong>Facts And Not Ads</strong><br>
+Our web site states that DeepSec is a <em>non-product</em>, <em>non-vendor-biased</em> conference event. In short this simply means that the
+topics discussed at DeepSec are all about facts not ads. We are looking for honest talks about security: If something
+breaks, tell us about it. If you can repair it, tell us about it. If you discovered something, tell us about it. Thatâs our
+goal.
+</p>
+
+<p>
+<strong>Support Young Talents</strong><br>
+We launched our special U21 initiative for young security researchers. We like to support young researchers (under the age
+of 21, hence U21) and enable them to present their works and results in an appropriate manner.
+</p>
+
+<p>
+<strong>Security Intelligence</strong><br>
+For topics in security intelligence and related content we offer you the <a href="https://deepintel.net/">DeepINTEL</a>
+event. The plan for DeepINTEL 2017 is ready. DeepINTEL will be on 18 &amp; 19 May 2017. the Call for Papers is open. Please send your submissions by e-mail
+to: cfp (at) deepsec (dot) net
+</p>
+
+
+</div>
+<ul id="footer">
+  <li><a href="contact.html">Contact</a></li>
+  <li><a href="agb.html">General Terms &amp; Conditions</a></li>
+  <li><a href="ahp.html">Anti-Harassment Policy</a></li>
+</ul>
+
+</div>
+</body>
+</html>

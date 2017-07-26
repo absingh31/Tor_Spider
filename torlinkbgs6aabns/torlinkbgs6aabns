@@ -1,0 +1,552 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<meta name="description" content="TorLinks, better than The Hidden Wiki, find all .onion links and sites in one place. Your Onionland Tor linklist. Deep Web Darknet Hidden Service link and url directory." />
+<title>TorLinks | .onion Link List The Hidden Wiki Deep Web Onion Urls Onionland Tor linklist</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<style type="text/css">
+body {
+background:#EEE;
+color:#000;
+font:13px Verdana,Tahoma,sans-serif;
+margin:0;
+text-align:center
+}
+
+:focus {
+outline:none
+}
+
+::-moz-focus-inner {
+border:0
+}
+
+a:link,a:visited {
+color:#00576A;
+font-weight:700;
+text-decoration:none
+}
+
+a:hover {
+color:#0089A8;
+text-decoration:underline
+}
+
+a:focus,a:active {
+color:#00BBE6;
+text-decoration:underline
+}
+
+h1 {
+font-size:35px;
+margin:5px 0;
+text-shadow:0 2px 2px rgba(0,0,0,0.333)
+}
+
+h2 {
+font-size:22px;
+font-weight:500;
+margin:17px 0 15px
+}
+
+h3 {
+margin:25px 0 0
+}
+
+h4 {
+margin-bottom:5px
+}
+
+h1,h2,.linktype {
+color:#6B4900;
+font-family:Courier,monospace
+}
+
+#main {
+-moz-box-shadow:0 6px 12px rgba(0,0,0,0.5);
+-webkit-box-shadow:0 6px 12px rgba(0,0,0,0.5);
+background-image: url(data:image/png;base64,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);
+box-shadow:0 6px 12px rgba(0,0,0,0.5);
+margin:15px auto 25px;
+padding:20px;
+width:740px
+}
+
+#links {
+line-height:20px;
+text-align:left
+}
+
+.linktype {
+float:right;
+font-size:18px;
+font-weight:500
+}
+
+.menu a:link,.menu a:visited {
+background:#00576A;
+padding:6px 8px
+}
+
+.menu a:link,.menu a:visited,.up a:link,.up a:visited {
+-moz-box-shadow:0 2px 3px rgba(0,0,0,0.5);
+-webkit-box-shadow:0 2px 3px rgba(0,0,0,0.5);
+box-shadow:0 2px 3px rgba(0,0,0,0.5);
+color:#FFF;
+cursor:pointer;
+font-weight:700;
+text-decoration:none
+}
+
+h2,.linktype,.menu a:link,.menu a:visited,.up a:link,.up a:visited {
+text-shadow:0 1px 1px rgba(0,0,0,0.5)
+}
+
+.menu a:hover {
+background:#0089A8
+}
+
+.menu a:focus,.menu a:active {
+background:#00BBE6
+}
+
+.up {
+margin-top:11px
+}
+
+.up a:link,.up a:visited {
+background:#6B4900;
+padding:2px 8px
+}
+
+.up a:hover {
+background:#A87300
+}
+
+.up a:focus,.up a:active {
+background:#E69D00
+}
+</style>
+</head>
+<body>
+<div id="top" style="position:absolute;top:0">&nbsp;</div>
+<div id="main">
+<h1>
+<a href="http://torlinkbgs6aabns.onion/">TorLinks</a> | .onion Link List
+</h1>
+<h2>
+Commercial Links
+</h2>
+<div class="menu">
+<a href="#financial">Financial Services</a>
+<a href="#services">Services</a>
+<a href="#drugs">Drugs</a>
+<a href="#physical">Physical Goods</a>
+<a href="#digital">Digital Goods</a>
+<a href="#erotic">Erotic</a>
+<a href="#gambling">Gambling</a>
+<h2>
+Non-Commercial Links
+</h2>
+<a href="#ncservices">Services</a>
+<a href="#hacking">Hacking</a>
+<a href="#warez">Warez</a>
+<a href="#ncerotic">Erotic</a>
+<a href="#forums">Forums</a>
+<a href="#media">Media</a>
+<a href="#political">Political</a>
+<a href="#others">Others</a>
+<a href="#nonenglish">Non-English</a>
+</div>
+<br><br>
+TorLinks is a moderated replacement for The Hidden Wiki, and serves as a link or url list of Tor hidden services.<br>
+Feel free to copy this deep web link list directory to your website to make others aware of the darknet.<br>
+We regulary update the tor onion sites on this site.<br>
+<br>
+<div id="links">
+<h3 id="financial">
+Financial Services<span class="linktype">Commercial Links</span>
+</h3>
+<hr>
+<a target="_blank" href="http://easycoinsayj7p5l.onion">EasyCoin</a> | EasyCoin Bitcoin Wallet, now with free Bitcoin Mixer!<br>
+<a target="_blank" href="http://jzn5w5pac26sqef4.onion">WeBuyBitcoins</a> | Sell your Bitcoins for Cash (USD), ACH, WU/MG, LR, PayPal and more<br>
+<a target="_blank" href="http://y3fpieiezy2sin4a.onion">HQER</a> | High quality euro bills replicas / counterfeits<br>
+<a target="_blank" href="http://qkj4drtgvpm7eecl.onion">USD Counterfeits</a> | High quality USD counterfeits<br>
+<a target="_blank" href="http://ow24et3tetp6tvmk.onion">OnionWallet</a> | Anonymous Bitcoin Wallet and Bitcoin Laundry<br>
+<div class="up"><a href="#top" title="Back to top">&#923;</a></div>
+<h3 id="services">
+Services<span class="linktype">Commercial Links</span>
+</h3>
+<hr>
+<a target="_blank" href="http://shopsat2dotfotbs.onion/">TorShops</a> | Create your own .onion store with full bitcoin integration<br>
+<a target="_blank" href="http://bj6sy3n7tbt3ot2f.onion/">OnionHosting</a> | Secure hosting for .onion and/or i2p<br>
+<a target="_blank" href="http://abbujjh5vqtq77wg.onion">Onion Identity Services</a> | Selling Passports and ID-Cards<br>
+<a target="_blank" href="http://2ogmrlfzdthnwkez.onion">Rent-A-Hacker</a> | Hacking, DDOS, Social Engeneering, Espionage, Ruining people<br>
+<a target="_blank" href="http://xfnwyig7olypdq5r.onion">USA Citizenship</a> | Become a citizen of the USA, real USA passport<br>
+<a target="_blank" href="http://ybp4oezfhk24hxmb.onion">Hitman Network</a> | Group of contract killers in the US/Canada and the EU<br>
+<a target="_blank" href="http://vfqnd6mieccqyiit.onion">UK Passports</a> | Original UK Passports<br>
+<a target="_blank" href="http://en35tuzqmn4lofbk.onion">USfakeIDs</a> | High quality USA Fake Drivers Licenses<br>
+<div class="up"><a href="#top" title="Back to top">&#923;</a></div>
+<h3 id="drugs">
+Drugs<span class="linktype">Commercial Links</span>
+</h3>
+<hr>
+<a target="_blank" href="http://rso4hutlefirefqp.onion/">EuCanna</a> | 'First Class Cannabis Healthcare' - Medical Grade Cannabis Buds, Rick Simpson Oil, Ointments and Creams<br>
+<a target="_blank" href="http://newpdsuslmzqazvr.onion/">Peoples Drug Store</a> | The Darkweb's Best Online Drug Supplier! Heroin, Cocaine, Ecstasy, Speed, Cannabis Prescriptions<br>
+<a target="_blank" href="http://smoker32pk4qt3mx.onion/">Smokeables</a> | Finest Organic Cannabis shipped from the USA<br>
+<a target="_blank" href="http://fzqnrlcvhkgbdwx5.onion/">CannabisUK</a> | UK Cannabis vendor, selling only organic weed<br>
+<a target="_blank" href="http://kbvbh4kdddiha2ht.onion/">DeDope</a> | German Weed Shop - Weed and Hash from Germany<br>
+<a target="_blank" href="http://s5q54hfww56ov2xc.onion">BitPharma</a> | EU vendor for cocaine, speed, mdma, psychedelics and subscriptions<br>
+<a target="_blank" href="http://ll6lardicrvrljvq.onion">Brainmagic</a> | Best psychedelics on the darknet<br>
+<a target="_blank" href="http://25ffhnaechrbzwf3.onion">NLGrowers</a> | Coffee Shop grade Cannabis from the netherlands<br>
+<div class="up"><a href="#top" title="Back to top">&#923;</a></div>
+<h3 id="physical">
+Physical Goods<span class="linktype">Commercial Links</span>
+</h3>
+<hr>
+<a target="_blank" href="http://mobil7rab6nuf7vx.onion">Mobile Store</a> | Factory unlocked iphones and other smartphones<br>
+<a target="_blank" href="http://tuu66yxvrnn3of7l.onion">UK Guns and Ammo</a> | Selling Guns and Ammo from the UK for Bitcoins<br>
+<a target="_blank" href="http://tfwdi3izigxllure.onion">Apples4Bitcoin</a> | Cheap Apple Products for Bitcoin<br>
+<a target="_blank" href="http://2kka4f23pcxgqkpv.onion">EuroGuns</a> | Your #1 european arms dealer<br>
+<div class="up"><a href="#top" title="Back to top">&#923;</a></div>
+<h3 id="digital">
+Digital Goods<span class="linktype">Commercial Links</span>
+</h3>
+<hr>
+<a target="_blank" href="http://3dbr5t4pygahedms.onion">ccPal</a> | CCs, CVV2s, Ebay, Paypals and more<br>
+<div class="up"><a href="#top" title="Back to top">&#923;</a></div>
+<h3 id="erotic">
+Erotic<span class="linktype">Commercial Links</span>
+</h3>
+<hr>
+<a target="_blank" href="http://k4btcoezc5tlxyaf.onion/">Kamagra for Bitcoin</a> | Same as Viagra, but cheaper! Ships from the UK.<br>
+<a target="_blank" href="http://ejz7kqoryhqwosbk.onion/">bittit NSFW</a> | Buy or sell original NSFW pictures for Bitcoins<br>
+<a target="_blank" href="http://xqz3u5drneuzhaeo.onion/users/titcc/phpBB3/">Tor Sex Workers Review Board</a> | For escorts, exotics, massage, etc<br>
+<div class="up"><a href="#top" title="Back to top">&#923;</a></div>
+<h3 id="gambling">
+Gambling<span class="linktype">Commercial Links</span>
+</h3>
+<hr>
+Coming soon! Just need to find some which arent scams!
+<div class="up"><a href="#top" title="Back to top">&#923;</a></div>
+<h3 id="ncservices">
+Services<span class="linktype">Non-Commercial Links</span>
+</h3>
+<hr>
+<h4>
+Tor link lists and search engines.
+</h4>
+<a target="_blank" href="http://kpvz7ki2v5agwt35.onion/">The Hidden Wiki</a> | Wiki style link list of TOR, most links there are SCAMS!<br>
+<a target="_blank" href="http://dppmfxaacucguzpc.onion/">TORDIR</a> | Categorized link list of Tor, user submitted. Also a PM service<br>
+<a target="_blank" href="http://ekwreugkil5ncyyh.onion/">Sites Deep Web</a> | A small list of onion links<br>
+<a target="_blank" href="http://eqt5g4fuenphqinx.onion/">Core.onion</a> | Simple onion bootstrapping<br>
+<a target="_blank" href="http://xmh57jrzrnw6insl.onion/">TORCH</a> | Tor Search Engine, claims to index around 1.1 Million pages<br>
+<a target="_blank" href="http://hpuuigeld2cz2fd3.onion/">Deepsearch</a> | Another search engine<br>
+<a target="_blank" href="http://x7yxqg5v4j6yzhti.onion/">OnionBookmark</a> | Keep bookmarks private or share with public<br>
+<a target="_blank" href="http://xqz3u5drneuzhaeo.onion/users/badtornodes/">InspecTor</a> | List of bad Tor nodes with ExcludeNodes generator for torrc<br>
+<a target="_blank" href="http://xqz3u5drneuzhaeo.onion/users/tritonio/TorJump.php"> TorJump</a> | A one-click wrapper to make Tor more accessible to non tech-savvies<br>
+<a target="_blank" href="http://p3lr4cdm3pv4plyj.onion/">Welcome, We've been expecting you!</a> | Links to basic encryption guides<br>
+<a target="_blank" href="http://6dyi4t72u7y6g763.onion/">Gateway</a> | Tor &lt;----&gt; I2p web proxy<br>
+<a target="_blank" href="http://53otrkyvae462lhb.onion/">Startbook</a> | online management of your bookmarks/favorites
+<h4>
+Email + Messaging
+</h4>
+<a target="_blank" href="http://4eiruntyxxbgfv7o.onion/pm/">TorPM</a> | Tor Private Messaging<br>
+<a target="_blank" href="http://4v6veu7nsxklglnu.onion/SimplePM.php"> SimplePM</a> | A PM service by CWKU. No registration needed<br>
+<a target="_blank" href="http://a5ec6f6zcxtudtch.onion/">GPF AnonymousWebservices</a> | Proxies for I2P, mail, news, tor, web<br>
+<a target="_blank" href="http://c4wcxidkfhvmzhw6.onion/">GPF PrivacyBox</a> | Private messaging service. Proxies for I2P, tor, web<br>
+<a target="_blank" href="http://jhiwjjlqpyawmpjx.onion/">Tor Mail</a> | Webmail/SMTP/IMAP/POP3. Can send/receive mail from outside Tor with a you@tormail.net address<br>
+<a target="_blank" href="http://k54ids7luh523dbi.onion/">Remailer Reliability Stats</a> | Mixmaster/Cypherpunk remailer stats<br>
+<a target="_blank" href="http://sc3njt2i2j4fvqa3.onion/">Newzbin</a> | Crowdsourced Usenet index based in the UK<br>
+<a target="_blank" href="http://xqz3u5drneuzhaeo.onion/users/chatroom/">ChatRoom</a> | AJAX based chat system, use any browser, no registration<br>
+<a target="_blank" href="http://xqz3u5drneuzhaeo.onion/users/efgchat/">EFG Chat</a> | HTTP refresh chatrooms<br>
+<a target="_blank" href="http://ajqaivfxtqy3fdlr.onion/torbook/">Torbook</a> | A way to make friends in onionland<br>
+<a target="_blank" href="http://nel2xugswcy7qv7r.onion/">ELIZA</a> | Free pyschotherapy<br>
+<a target="_blank" href="http://hv2ow7li345lki5w.onion/">n0id</a> | n0id's crypto identity and contact page<br>
+<a target="_blank" href="http://wjngphmzk6mr2pt5.onion/">Narcan's GPG key</a> | Narcan's GPG key<br>
+<a target="_blank" href="http://lotjbov3gzzf23hc.onion/">TorStatusNet</a> | Twitter clone on tor
+<h4>
+Hosting
+</h4>
+<a target="_blank" href="http://34uvre3xzku2eanr.onion/">The Onion Cloud</a> | Tor/ownCloud based cloud, Login/Pass: public/public<br>
+<a target="_blank" href="http://4eiruntyxxbgfv7o.onion/">CircleServices</a> | Mixie's place. Provides: Circle-Talk, TorPM, ImgZapr, SnapBBS, qPasteBin, AnonyShares, Circle-IRC<br>
+<a target="_blank" href="http://4eiruntyxxbgfv7o.onion/anonyshares.html">Anonyshares</a> | File upload up to 10MB<br>
+<a target="_blank" href="http://4eiruntyxxbgfv7o.onion/paste">qPasteBin</a> | A pastebin<br>
+<a target="_blank" href="http://f3ew3p7s6lbftqm5.onion/">Onion Fileshare</a> | 2GB Upload file size limit, upload any files you want<br>
+<a target="_blank" href="http://i7hknwg4up2jhdkx.onion/">ES Simple Uploader</a> | Upload images, docs and other files, 2 MB upload limit<br>
+<a target="_blank" href="http://p7d2k2xiioailnuu.onion/">IMGuru</a> | Fast GIF/JPEG host. No images removed. If you get the error Invalid File, retry the upload<br>
+<a target="_blank" href="http://squareh565qgkioq.onion/">SquareBoard</a> | Upload and share high quality images, moderated<br>
+<a target="_blank" href="http://utovvyhaflle76gh.onion/">sTORage</a> | Upload files, has WebDAV support<br>
+<a target="_blank" href="http://xfq5l5p4g3eyrct7.onion/">Onion Image Uploader</a> | Image Hosting, 2 MB upload limit, generates medium thumbnails<br>
+<a target="_blank" href="http://xqz3u5drneuzhaeo.onion/">Freedom Hosting</a> | Hosting Service with PHP/MySQL, as of 2011-06-04, it hosts about 50% of the live OnionWeb by onion<br>
+<a target="_blank" href="http://xqz3u5drneuzhaeo.onion/users/boi">PasteOnion</a> | Paste and share text, sources, whatever, you can make your paste public or set a password<br>
+<a target="_blank" href="http://xqz3u5drneuzhaeo.onion/users/qicpic">QicPic</a> | Upload any type of file, caches and compresses uploaded files to decrease loading time<br>
+<div class="up"><a href="#top" title="Back to top">&#923;</a></div>
+<h3 id="hacking">
+Hacking<span class="linktype">Non-Commercial Links</span>
+</h3>
+<hr>
+<a target="_blank" href="http://clsvtzwzdgzkjda7.onion/">HackBB</a> | Forums for hacking, carding, cracking, programming, anti-forensics, and other tech topics, includes a marketplace with escrow<br>
+<a target="_blank" href="http://4eiruntyxxbgfv7o.onion/snapbbs/3e238502/">Carders Forums</a> | Ministry of Fraudulently Affairs<br>
+<a target="_blank" href="http://3terbsb5mmmdyhse.onion/">hashparty</a> | Password hash cracking site<br>
+<a target="_blank" href="http://g7pz322wcy6jnn4r.onion/opensource/II/index.html">Polyfront #2nd</a> | Tradecraft and security tutorials<br>
+<a target="_blank" href="http://jchlju4s5zi5i425.onion/censored.html">OnionUserX Censor Page</a> | Seriously, the fuck? Anyone mind reposting the original links?<br>
+<a target="_blank" href="http://js6ogt27wjnbsdux.onion/">The KMs Bird (WhiteHex)</a> | School hacker<br>
+<a target="_blank" href="http://kwv7z64xyiva22fw.onion/">DeepSec</a> | An annual European two-day in-depth conference on computer, network, and application security<br>
+<a target="_blank" href="http://mtn2fcv7yerki2op.onion/">BRAMA</a> | Linux/Wireless/Mobile tech consortium in Poland<br>
+<a target="_blank" href="http://pdjcu4js2y4azvzt.onion/">TM Comm</a> | For a Chaotic Tomorrow<br>
+<a target="_blank" href="http://pw5odgnkkhsuslol.onion/">The KMs Bird (GreenBin)</a> | School hacker<br>
+<a target="_blank" href="http://rvomgbplxtz4e7jv.onion/">Shell In A Box</a> | Shell In A Box<br>
+<a target="_blank" href="http://tag3ulp55xczs3pn.onion/">Requiem</a> | Software for removing iTunes DRM<br>
+<a target="_blank" href="http://wdnqg3ehh3hvalpe.onion/">keys open doors</a> | Mirror of geohot's PS3 hacking tools<br>
+<a target="_blank" href="http://xqz3u5drneuzhaeo.onion/users/anonymousanon/sfp/forum.html">Speakeasy #2nd</a> | Paper describing a highly-secured forum system (current version)<br>
+<a target="_blank" href="http://xqz3u5drneuzhaeo.onion/users/crackwar/">Crackwar</a> | Pirates are the good guys!<br>
+<a target="_blank" href="http://xqz3u5drneuzhaeo.onion/users/cycekkk/">Cycekkk</a> | A browser exploit page using 302 mailto method. Tries to send bad words/links to Mr. Brejza<br>
+<a target="_blank" href="http://xqz3u5drneuzhaeo.onion/users/qi2kcaz8j6tg/">New Diceware Lists</a> | Randomization for file names. Multiple lists, more to come<br>
+<a target="_blank" href="http://xqz3u5drneuzhaeo.onion/users/speakeasy/">Speakeasy #1st</a> | Paper describing a highly-secured forum system (old flawed version)<br>
+<a target="_blank" href="http://ybi5yfcdw6mxqlvn.onion/">Onion Desktop</a> | eyeOS web desktop<br>
+<a target="_blank" href="http://zgmxllflvb7oza7t.onion/">Dear PayPal], [http://pastebin.com/LAykd1es (clearnet)</a> | AntiSec's message<br>
+<div class="up"><a href="#top" title="Back to top">&#923;</a></div>
+<h3 id="warez">
+Warez<span class="linktype">Non-Commercial Links</span>
+</h3>
+<hr>
+<a target="_blank" href="http://dts563ge5y7c2ika.onion/">OnionWarez</a> | Warez forum<br>
+<a target="_blank" href="http://xqz3u5drneuzhaeo.onion/users/dosbox2/">Weird and Wonderful Old Stuff</a> | A collection of old DOS and Windows software<br>
+<a target="_blank" href="http://wuvdsbmbwyjzsgei.onion/">Lossless Audio Files</a> | Mostly WavPack, some FLAC, Ape, ogg, etc. Has index generating links<br>
+<a target="_blank" href="http://xqz3u5drneuzhaeo.onion/users/filesharez/">FileshareZ</a> | Filesharing forum, movies, music and tv-shows<br>
+<a target="_blank" href="http://qlzkoetmfgl3vgjf.onion/">Movies, Music, TV &amp; Ebooks</a> | user: webuser password: L0L******
+<h4>
+Books
+</h4>
+<a target="_blank" href="http://dts563ge5y7c2ika.onion/">OnionWarez</a> | Warez forum<br>
+<a target="_blank" href="http://am4wuhz3zifexz5u.onion/">The Tor Library</a> | 47 GB. pdf, chm, djvu. Design by Russebertene<br>
+<a target="_blank" href="http://duskgytldkxiuqc6.onion/">Example rendezvous points page</a> | Thomas Paine's ''Common Sense'' and ''The Federalist papers''<br>
+<a target="_blank" href="http://nwycvryrozllb42g.onion/">Destination Unknown</a> | Small selection. Searchlores, Cryptonomicon, Thelema..<br>
+<a target="_blank" href="http://p2uekn2yfvlvpzbu.onion/">LiberaTor</a> | Making weapons, military training, and related subjects<br>
+<a target="_blank" href="http://xqz3u5drneuzhaeo.onion/users/iskanderarchiv/">Free Bibliotheca Alexandrina</a> | English, Spanish and German books<br>
+<a target="_blank" href="http://xqz3u5drneuzhaeo.onion/users/journeyman/">The Laughing Nihilist</a> | Drugs + writing<br>
+<a target="_blank" href="http://xqz3u5drneuzhaeo.onion/users/mister/">Mister</a> | Collection of writings, art, selected texts and deeply personal views on philosophy of existence<br>
+<a target="_blank" href="http://kpynyvym6xqi7wz2.onion/files.html">ParaZite</a> | Collection of forbidden files and howto's (pdf, txt, etc.)<br>
+<div class="up"><a href="#top" title="Back to top">&#923;</a></div>
+<h3 id="ncerotic">
+Erotic<span class="linktype">Non-Commercial Links</span>
+</h3>
+<hr>
+<a target="_blank" href="http://hb4pm4eznzhd6mts.onion/pe/train.php">(Y)APE</a> | Yet Another Porn Exchange<br>
+<a target="_blank" href="http://6dyi4t72u7y6g763.onion/proxy/index.php?proxy_url=aHR0cDovL2x1c3RhZHVsdGVyeS5jb20=">LustAdultery</a> | Hardcore hot truth ladies and lust<br>
+<a target="_blank" href="http://xqz3u5drneuzhaeo.onion/users/bugtales">Bug Tales</a> | Site rip of bugtales.net from the Internet Archive. Homosexual bugchasing stories<br>
+<a target="_blank" href="http://6dyi4t72u7y6g763.onion/proxy/index.php?proxy_url=aHR0cDovL3d3dy5wb3JuLWZyZWUub3Jn">Porn-Free</a> | Free porn advice<br>
+<a target="_blank" href="http://d6mbioyge4posl7r.onion/">Hard p0rn | forum</a> | The harder the better<br>
+<a target="_blank" href="http://4eiruntyxxbgfv7o.onion/snapbbs/66b5f8d2/">Penis Panic!</a> | Dedicated to genital mutilation. The discussion board<br>
+<a target="_blank" href="http://xqz3u5drneuzhaeo.onion/users/penispanic/">Penis Panic!</a> | Dedicated to genital mutilation. The pictures and videos<br>
+<div class="up"><a href="#top" title="Back to top">&#923;</a></div>
+<h3 id="forums">
+Forums<span class="linktype">Non-Commercial Links</span>
+</h3>
+<hr>
+<a target="_blank" href="http://4eiruntyxxbgfv7o.onion/snapbbs/6b8582dc/">TheHiddenHand</a> | SnapBBS, TheHiddenHand collective communication based on conspiracy, 
+philosophy and uncensored information-currently seeking freedomhosting invite<br>
+<a target="_blank" href="http://zw3crggtadila2sg.onion/imageboard/">Torchan</a> | /b/, /i/, programming, revolution, tons of other boards<br>
+<a target="_blank" href="http://od6j46sy5zg7aqze.onion/">Anonchan</a> | Boards: /b/"&gt;- Random, /a/"&gt;- Anime/Manga/NSFW<br>
+<a target="_blank" href="http://wyxwerboi3awzy23.onion/">Hidden Image Site</a> | HIS<br>
+<a target="_blank" href="http://uzz3h4ruguwza4fr.onion/imgboard/b/">Bobby's board</a> | Channel with currently only 2 boards but growing, about 75% uptime<br>
+<a target="_blank" href="http://3mrdrr2gas45q6hp.onion/">Torduckin0 #1st</a> | www.citadel.org Citadel, BBS with chat and IM to support<br>
+<a target="_blank" href="http://3suaolltfj2xjksb.onion/chan/">TriChan</a> | Revived, now only has /txt/"&gt;Textboard, /mlp/"&gt;My Little Pony, and /b/"&gt;Random<br>
+<a target="_blank" href="http://4eiruntyxxbgfv7o.onion/">Circle-Talk</a> | A board on the front page of CircleService<br>
+<a target="_blank" href="http://4eiruntyxxbgfv7o.onion/snapbbs/">SnapBBS</a> | The SnapBBS service<br>
+<a target="_blank" href="http://4eiruntyxxbgfv7o.onion/snapbbs/5112d4d2/">Onion Site Reviews</a> | A site started 2011/11/19 made for the reviews of onion sites<br>
+<a target="_blank" href="http://4eiruntyxxbgfv7o.onion/snapbbs/260fa043/">TorTSE</a> | A continuation of the infamous TOTSE forum which has existed since the late 80s covering almost every topic<br>
+<a target="_blank" href="http://4eiruntyxxbgfv7o.onion/snapbbs/2b13fee/">TOR Free For All</a> | Unmoderated area for political and other topics. Anything goes. Private board<br>
+<a target="_blank" href="http://4eiruntyxxbgfv7o.onion/snapbbs/5d91777e/">Democrat Watch</a> | Right-wing board dedicated to criticizing Democrats (registration required)<br>
+<a target="_blank" href="http://4eiruntyxxbgfv7o.onion/snapbbs/736364f4/">The Intel Exchange</a> | Know or need to know something? Ask and share at this underground intelligence gathering network<br>
+<a target="_blank" href="http://4eiruntyxxbgfv7o.onion/snapbbs/45a56e82/">LE+TOR Interchat</a> | Law enforcement and Tor users can interact and share their opinions as humans<br>
+<a target="_blank" href="http://4eiruntyxxbgfv7o.onion/snapbbs/77729de1/">TOR Answers</a> | Like Yahoo answers, but with a Tor twist<br>
+<a target="_blank" href="http://4eiruntyxxbgfv7o.onion/snapbbs/7b6bc481/">Paranomal Aliens n' Shit</a> | Discussion of the Paranormal, Aliens and Shit<br>
+<a target="_blank" href="http://4eiruntyxxbgfv7o.onion/snapbbs/237d0738/">Cafe at the End of the Internet</a> | Feeling off-topic? Tech-oriented chill zone/meeting grounds for general talk<br>
+<a target="_blank" href="http://4eiruntyxxbgfv7o.onion/snapbbs/2c0df197/">Esoteric and Occult</a> | Dedicated to all forms of occultism<br>
+<a target="_blank" href="http://4eiruntyxxbgfv7o.onion/snapbbs/4c1c4fcf/">Crime Network</a> | A place to network and get better at your craft<br>
+<a target="_blank" href="http://4eiruntyxxbgfv7o.onion/snapbbs/717992f1/">Demosthenes' Board</a> | Demosthenes' Board<br>
+<a target="_blank" href="http://4eiruntyxxbgfv7o.onion/snapbbs/public/">SnapBBS public board</a> | The public SnapBBS board<br>
+<a target="_blank" href="http://65bgvta7yos3sce5.onion/">Onionforum 2.0</a> | A restart of the popular Onionforum. No login required<br>
+<a target="_blank" href="http://4eiruntyxxbgfv7o.onion/snapbbs/738f5c4e/">What is your current Bitch?</a> | Post your current gripe and/or bitch! Blow some steam off and you will feel better<br>
+<a target="_blank" href="http://ci3hn2uzjw2wby3z.onion/">Talk.Masked</a> | Talks and Notes. 2nd generation<br>
+<a target="_blank" href="http://q2uftrjiuegl4ped.onion/">Torduckin0 #2nd</a> | BBS with chat and IM to support<br>
+<a target="_blank" href="http://qm3monarchzifkwa.onion/">Anonymous BBS</a> | Another variation of the talks style of board<br>
+<a target="_blank" href="http://stlw74hqbtzoshyg.onion/">OnionMe</a> | Forum for personal ads. All ages welcome<br>
+<a target="_blank" href="http://tghtnwsywvvhromy.onion/">Torduckin0 #3rd</a> | BBS with chat and IM to support<br>
+<a target="_blank" href="http://wx3wmh767azjjl4v.onion/">Torduckin0 #4th</a> | BBS with chat and IM to support<br>
+<a target="_blank" href="http://xqz3u5drneuzhaeo.onion/users/leaf/">Leaf's underground horticulture</a> | Minimalist, multipurpose text boards. No login required<br>
+<a target="_blank" href="http://ajqaivfxtqy3fdlr.onion/torsquare/">Torsquare</a> | Anonymous board, shares posts and discussions with Torbook's public square<br>
+<a target="_blank" href="http://clsvtzwzdgzkjda7.onion/">HackBB</a> | Forums for hacking, carding, cracking, programming, anti-forensics, and other tech topics. Also a marketplace with escrow<br>
+<a target="_blank" href="http://npieqpvpjhrmdchg.onion/">DOXBIN</a> | DOX go here. A pastebin for personally identifiable information<br>
+<a target="_blank" href="http://freesidehsb4g5vg.onion/forum/">Freeside</a> | WHY WAIT? Leave the crazy at the door<br>
+<a target="_blank" href="http://ci3hn2uzjw2wby3z.onion/">Talk</a> | Board, no pictures<br>
+<a target="_blank" href="http://k6gsb4ibatcico35.onion/">RedditTor</a> | Anonymous Reddit<br>
+<div class="up"><a href="#top" title="Back to top">&#923;</a></div>
+<h3 id="media">
+Media<span class="linktype">Non-Commercial Links</span>
+</h3>
+<hr>
+<a target="_blank" href="http://6g2osf4l534bozmu.onion/">RespiraTOR</a> | If something is infuriating you, it's better to get it off your chest<br>
+<a target="_blank" href="http://b2psupe2rienya5n.onion/">Americans for Disparity</a> | Exploring disparody<br>
+<a target="_blank" href="http://cxoz72fgevhfgitm.onion/">Tor and blosxom</a> | A Tor hidden service running on the blosxom blogging platform<br>
+<a target="_blank" href="http://4eiruntyxxbgfv7o.onion/paste/show.php?id=df77aa028f951aa5">10 Step Guide to Bail Jumping </a> | More about Jumping bail and fleeing the country<br>
+<a target="_blank" href="http://tdgknw25wqm5sbhg.onion/">Gionn</a> | Technology blog and news aggregator<br>
+<a target="_blank" href="http://utup22qsb6ebeejs.onion/">My Hidden Blog</a> | Security politics, security, tor, tools, personal<br>
+<a target="_blank" href="http://b6kpigzhrdhibmos.onion/d6/">Tornado</a> | Forum, blogs, polls, registered or anon posting<br>
+<a target="_blank" href="http://yeeshafbtyf7aipe.onion/">Cone's lair #2nd</a> | Yeesha. Back with Cone's journal and some other stuff<br>
+<a target="_blank" href="http://tjbxptkkgx2qmeqz.onion/">True Anonymous Confessions</a> | A confession service based on a bash clone<br>
+<a target="_blank" href="http://4eiruntyxxbgfv7o.onion/paste/show.php?id=ef31b01f1cd8edc7">How to Get Away with Insider Trading</a> | You always wondered why these guys were getting caught, now pull it off and make millions<br>
+<a target="_blank" href="http://4eiruntyxxbgfv7o.onion/paste/show.php?id=d98a9a71393d5e47">Beat the Sex Offender Polygraph &amp; Abel Assessment</a> | Sex Offender? Here's how to stay out and prevent re-convictions or get a better plea offer<br>
+<a target="_blank" href="http://74ypjqjwf6oejmax.onion/">Beneath VT</a> | Information on the steam tunnels at Virginia Tech<br>
+<a target="_blank" href="http://tovfhccd4sv3kez4.onion/">Keep Bitcoin Real</a> | Fuck the day traders, take Bitcoin back to its roots<br>
+<a target="_blank" href="http://xqz3u5drneuzhaeo.onion/users/experiments/">The Human Experiment</a> | Human medical experiments. We go, where few dare<br>
+<a target="_blank" href="http://fkyvwpu7ccsorke2.onion/-Steal%20this%20Wiki/index.html">Steal This Wiki mirror</a> | Steal this wiki mirror, no editing, hosted at NoReason<br>
+<div class="up"><a href="#top" title="Back to top">&#923;</a></div>
+<h3 id="political">
+Political<span class="linktype">Non-Commercial Links</span>
+</h3>
+<hr>
+<a target="_blank" href="http://hq3hmoa4thdplmta.onion/">Heidenwut</a> | Politics, Occultism, Spy vs Spy, Revolution!!<br>
+<a target="_blank" href="http://6sgjmi53igmg7fm7.onion/">BuggedPlanet.Info</a> | Information on Telecommunication Interception Companies + Installations<br>
+<a target="_blank" href="http://2ddjd7xsni7pefcx.onion/">PURE EUROPE</a> | Cleanse Europe of the dirt!<br>
+<a target="_blank" href="http://2wjsnwzoeiae4iyf.onion/">Keep Internet Open!</a> | Small unofficial AnonOps site, currently instructing how to DDoS MasterCard and other WikiLeaks opponents<br>
+<a target="_blank" href="http://cx4vwijytopjvedi.onion/index.htm"> A website</a> | Free speech advocacy. (About 50% uptime.)<br>
+<a target="_blank" href="http://kpynyvym6xqi7wz2.onion/">paraZite #2nd</a> | Illicit activities advocacy and censored information archive<br>
+<a target="_blank" href="http://pdjfyv7v3pn34w4f.onion/">House of Anonymous</a> | Satirical manifesto regarding anonymous<br>
+<a target="_blank" href="http://xqz3u5drneuzhaeo.onion/users/a42/">The Movement of torism</a> | New activist group organized in OnionSpace<br>
+<a target="_blank" href="http://r2tjckbrme3yeenx.onion/">Wake up Europe!</a> | This is a call to arms!<br>
+<a target="_blank" href="http://gx72uexxlkzofk6p.onion/">Revolution Bunker</a> | h3x's blog on censorship, hacking, privacy, crypto, capitalism, war, corruption, etc<br>
+<a target="_blank" href="http://wi7o5wxt4ked7soq.onion/">LoM's Revolutionary Codex</a> | Revolution/Subversive texts, forum soon, blog<br>
+<a target="_blank" href="http://xqz3u5drneuzhaeo.onion/users/heidenwut2/">Heidenwut</a> | Politics, Occultism, Spy vs Spy, Revolution!!
+<h4>
+Whistleblowing
+</h4>
+<h4>
+WikiLeaks
+</h4>
+See also http://wikileaks.org/ | WikiLeaks Official Site<br>
+<a target="_blank" href="http://leakager742hufco.onion/">A Cat's Mirror of Wikileaks Cablegate site</a> | Includes cables currently redacted or offline<br>
+<a target="_blank" href="http://sx3jvhfgzhw44p3x.onion/">WikiLeaks mirror #B</a> | updates follow wikileaks.ch with up to 3 days delay<br>
+<a target="_blank" href="http://zbnnr7qzaxlk5tms.onion/">WikiLeaks mirror #A</a> | WikiLeaks last push update to this mirror occurred 2011-03-06
+<h4>
+Operation AntiSec
+</h4>
+<a target="_blank" href="http://vv7pabmmyr2vnflf.onion/tx/texas_takedown_thursday.html">Texas Takedown Thursday: Chinga La Migra IV</a> | AntiSec messes with Texas, attacks dozens of police systems and chief emails<br>
+<a target="_blank" href="http://ibhg35kgdvnb7jvw.onion/cybercrime/">Fuck FBI Friday: IACIS Cybercrime Investigator Communications</a> | email dump including IACIS internal email list archives
+<h4>
+Other
+</h4>
+<a target="_blank" href="http://xqz3u5drneuzhaeo.onion/users/hbgary/">HBGary Federal Attachment Dump</a> | The HBGary email archive leaked by Anonymous<br>
+<a target="_blank" href="http://proxy-https.ckkjdktn2elda5f2.onion/">Taz Onion</a> | onion version of leaks.taz.de | Mockup of another leak project, known as OpenLeaks<br>
+<div class="up"><a href="#top" title="Back to top">&#923;</a></div>
+<h3 id="others">
+Others<span class="linktype">Non-Commercial Links</span>
+</h3>
+<hr>
+<a target="_blank" href="http://kenny7svk4sg2mcj.onion/">Kenny</a> | You killed Kenny! You're a bastard!<br>
+<a target="_blank" href="http://3g2upl4pq6kufc4m.onion/">DuckDuckGo</a> | metasearch engine with heavy filtering<br>
+<a target="_blank" href="http://fcl3t6t66uv3u4og.onion/">bugmenot@tor</a> | A user supplied database of account credentials for various websites<br>
+<a target="_blank" href="http://iwdmsbpxclyjhi4e.onion/">The LG enV2</a> | Very basic information and photo gallery about a wireless digital messaging phone<br>
+<a target="_blank" href="http://jchlju4s5zi5i425.onion/">thE LisT oF SQL data bases!</a> | MySQL credentials archive. Hosted on this page<br>
+<a target="_blank" href="http://ajqaivfxtqy3fdlr.onion/qa/index.php">Questions and Answers</a> | A little truth game. Ask questions and give answers anonymously. Answers also support image uploading<br>
+<a target="_blank" href="http://fkyvwpu7ccsorke2.onion/">noreason</a> | Info and pdf files on weapons, locks, survival, poisons, protesters, how to kill. Hidden Wiki, TorDir, Steal this wiki, 
+Telecomix Crypto Munitions Bureau mirrors. Guro, dofantasy --Fansadox Collection<br>
+<a target="_blank" href="http://2zyakjq2hvtbg6qd.onion/">The Outlaw Project</a> | "Free for all" links to various files and known .onion sites. Onion address hosted an FTP service<br>
+<div class="up"><a href="#top" title="Back to top">&#923;</a></div>
+<h3 id="nonenglish">
+Non-English<span class="linktype">Non-Commercial Links</span>
+</h3>
+<hr>
+<h4>
+Czech / Cetina
+</h4>
+<a target="_blank" href="http://qyy2n2lqpc5l524q.onion/">PirateLeaks.cz #2nd </a> | Ceská obdoba WikiLeaks | Czech website based on Wikileaks
+<h4>
+Danish / Dansk
+</h4>
+<a target="_blank" href="http://oj3nqbmyudyl4mgn.onion/">DanishChan</a> | Scandinavian focused imageboard. Boards include drugs and IT security as well as a Random board. Fast and clean 
+layout, little downtime<br>
+<a target="_blank" href="http://4eiruntyxxbgfv7o.onion/snapbbs/43f25a73/">drugs.dk</a> | Danish Drug Trade
+<h4>
+Dutch / Nederlands
+</h4>
+<a target="_blank" href="http://ie4hf3qxzoazywoi.onion/">Voetbalfan</a> | Voetbalfan
+<h4>
+Finnish / Suomi
+</h4>
+<a target="_blank" href="http://zitanihpqsvi2lav.onion/">Sipulilauta</a> | A chan<br>
+<a target="_blank" href="http://zqiirytam276uogb.onion/">Thorlauta</a> | Successor to Torlauta<br>
+<a target="_blank" href="http://xxieg3mbvoh26pvs.onion/">Blue Quarters</a> | Advice regarding to BitCoins, Silk Road Online, ordering anonymously, staying anonymous in deepweb etc<br>
+<a target="_blank" href="http://r33rs4kqbjvdxuk2.onion/">Blue Quarters Forum</a> | Discussion forum<br>
+<a target="_blank" href="http://v7ovl2hciwt72lqi.onion/forum/">Suojeluskunta</a> | White Power Forum
+<h4>
+French / Français
+</h4>
+<a target="_blank" href="http://xqz3u5drneuzhaeo.onion/users/noel/indexphp">Hmm?</a> | A French board<br>
+<a target="_blank" href="http://l4tay4mx3vyjdn4i.onion/">Je suis Kalila</a> | Weird website
+<h4>
+German / Deutsch
+</h4>
+<a target="_blank" href="http://6jzwxsoxmlefkkkl.onion/">Das ist DEUTSCHLAND hier</a> | discussion forum with no specific topic<br>
+<a target="_blank" href="http://7pwhaqsxbjdj27gx.onion/">TAZ Archiv</a> | A daily updated archive of the TAZ (German newspaper) starting from 2009-05 maybe with some days missing<br>
+<a target="_blank" href="http://7ymfzygewl4n6usp.onion/phpBB3/index.php">Hmm?</a> | Forum for warez and uncensored talk<br>
+<a target="_blank" href="http://ar3ubs6cg6an4ylt.onion/">beaglesnoop</a> | Website and blog<br>
+<a target="_blank" href="http://deurfnquin7mvni2.onion/">Pyrowiki</a> | Pyrotechnics and drug wiki<br>
+<a target="_blank" href="http://j4ddjgxetfx2ybcx.onion/">Geheimkanal</a> | Imageboard. (Partially 18+)<br>
+<a target="_blank" href="http://qdsuildbdofkrhe3.onion/">Safety101</a> | Computer saftey board. Some English<br>
+<a target="_blank" href="http://jbsex4wngjpo5i27.onion/">Jailbait Sex Forum</a> | Jailbait Sex Forum<br>
+<a target="_blank" href="http://torlinkbgs6aabns.onion/://mc2wqhlkh6ffgrdi.onion/">Flachbrustkanal</a> | Brett für flache Brüste
+<h4>
+Hebrew
+</h4>
+<a target="_blank" href="http://xqz3u5drneuzhaeo.onion/users/samim/">Samim.onion</a> | Selling and shipping of drugs and medicine in Israel (Bitcoin)
+<h4>
+Polish / Polski
+</h4>
+<a target="_blank" href="http://vjelr2xdaqsgslzr.onion/">Torowisko</a> | Forum Polskiej Spolecznosci Tor. Nowe ogólnotematyczne forum bez rejestracji i cenzury. Godny Nastepca Onionforum, 
+juz z ponad 8000 postami (codziennie przybywaja nowe!)<br>
+<a target="_blank" href="http://rzb5nlpvy5oqnket.onion/">Fundacja Panoptykon</a> | panoptykon.org | Strona fundacji przeciwstawiajacej sie coraz powszechniejszej inwigilacji oraz tendencjom 
+nasilania nadzoru i kontroli nad spoleczenstwem<br>
+<a target="_blank" href="http://2wjsnwzoeiae4iyf.onion/1984_pl/Rok_1984.html">George Orwell</a> | polskie tlumaczenie znanej powiesci<br>
+<a target="_blank" href="http://pibn3ueheubjxv2z.onion/wiki/index.php/Start">Polska Ukryta Wiki</a> | PUW, wiki polskiej spolecznosci Tor<br>
+<a target="_blank" href="http://uaga3aoawaj6hohg.onion/">Backup NWO</a> | wybór najciekawszych stron i artykulów dot. nowego porzadku swiata i tematów pokrewnych<br>
+<a target="_blank" href="http://cwesjxczvcvwvapz.onion/KsiegaUrantii/SPIS%20TRESCI.htm"> Ksiega Urantii</a> | czyli kolejna, jedynie sluszna prawda, komus tam objawiona<br>
+<a target="_blank" href="http://n2qxamb4ujm53cas.onion/">Krzysztof Brejza</a> | malo zabawna imitacja strony jednego z poslów PO<br>
+<a target="_blank" href="http://qubsrxat5qsaw5u5.onion/">Polska Cebulka</a> | blog i zbiór linków dot. polskich zasobów sieci Tor<br>
+<a target="_blank" href="http://ont6bv4bg7rtgaos.onion/">Polska ukryta strona w sieci Tor</a> | przykladowa strona<br>
+<a target="_blank" href="http://nemlq3kd36frgvzp.onion/">Torkazywarka</a> | http://nemlq3kd36frgvzp.onion/forum/ Forum Przekrety , praktycznie martwe forum, w zalozeniu o przekretach, broni 
+i hackingu<br>
+<a target="_blank" href="http://xlmg6p4ueely7mhh.onion/">TorKnight</a> | wielotematyczne forum wymagajace rejestracji<br>
+<a target="_blank" href="http://w56hjpxn45yzohqa.onion/">56 Dog Days</a> | Ramblings<br>
+<a target="_blank" href="http://dts563ge5y7c2ika.onion/Onionsearch/">Onioon Search</a> | Polska wyszukiwarka stron .onion | kazdy moze dodac swój strone do katalogu wyszukiwarki
+<h4>
+Slovak / Slovenský
+</h4>
+<a target="_blank" href="http://y4bzva6k3l2l7rla.onion/">Detská pornografia: Je to len zámienka</a> | Preco je boj proti detskej pornografii zámienkou pre nieco iné
+<h4>
+Spanish / Español
+</h4>
+<a target="_blank" href="http://2dn2dmxt5uwnxz3j.onion/">Abusos</a> | Abusos judiciales en España<br>
+<a target="_blank" href="http://kd6qr7xh42coxooq.onion/">T0rtilla</a> | Shoutox webchat<br>
+<a target="_blank" href="http://s6cco2jylmxqcdeh.onion/">CebollaChan</a> | CebollaChan, el tor-chan en Castellano<br>
+<a target="_blank" href="http://xqz3u5drneuzhaeo.onion/users/tortilla/">T0rtilla</a> | Shoutbox webchat. (Direct FH URL)<br>
+<a target="_blank" href="http://uqtinqynmibpoa2s.onion/">Forocoches 2.0</a> | Torocoches | Forocoches 2.0
+<h4>
+Swedish / Svenska
+</h4>
+<a target="_blank" href="http://fcnwebggxt2d3h64.onion/">Moral.Nu</a> | Vad är moral?<br>
+<a target="_blank" href="http://wd43uqrbjwe6hpre.onion/">KognitionsKyrkan</a> | Spiritual stuff<br>
+<a target="_blank" href="http://zce2gyru25cvynqc.onion/zg/">ZG Projektet</a> | ZG Projektet<br>
+<div class="up"><a href="#top" title="Back to top">&#923;</a></div>
+</div>
+<br>
+<br>
+<br>
+<div class="menu">
+To report missing or broken links and scams please use our&nbsp;
+<a href="messages.php">Message Center</a>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,306 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="description" content="EasyCoin.net is a Bitcoin Wallet and Bitcoin Laundry service, we offer bitcoin laundry without any fees, use on Iphone, Android." />
+<link rel="icon" type="image/icon" href="favicon.ico">	
+<link rel="shortcut icon" type="image/icon" href="favicon.ico">
+<title>
+EasyCoin Bitcoin Wallet and free Bitcoin Mixer / Bitcoin Laundry, manage your Bitcoins from any location, from any device: Iphone, Android etc - Online Bitcoin Wallet</title>
+<style type="text/css">
+body
+{
+	background-image:url(bg.gif);
+	font-family:Arial, Helvetica, Tahoma, sans-serif;
+}
+
+img
+{
+	border:0;
+	padding-right:5px;
+}
+
+.floatimg
+{
+	padding-bottom:5px;
+	padding-right:20px;
+}
+
+h1
+{
+	color:#574435;
+	text-shadow:1px 2px 2px #BFBD8C;
+	line-height:10px;
+}
+
+#main
+{
+	background-image:url(main-bg.gif);
+	border:6px solid #331F17;
+	border-radius:7px 7px 7px 7px;
+	margin:15px auto 30px;
+	padding:20px 20px 0;
+	position:relative;
+	width:880px;
+}
+
+.buttn
+{
+	background:none repeat scroll 0 0 #E9AE21;
+	border:1px solid #999;
+	border-radius:5px 5px 5px 5px;
+	box-shadow:0 0 2px rgba(0,0,0,0.3);
+	color:#472B20;
+	font-weight:700;
+	height:25px;
+	padding-bottom:3px;
+}
+
+.buttn:hover
+{
+	background:#EFCA62;
+}
+
+.txt
+{
+	-moz-border-radius:3px;
+	-moz-box-shadow:0 0 2px rgba(0,0,0,0.3);
+	-webkit-box-shadow:0 0 2px rgba(0,0,0,0.3);
+	border:1px solid #F6AA3D;
+	border-radius:3px;
+	box-shadow:0 0 2px rgba(0,0,0,0.3);
+	height:20px;
+	margin-bottom:7px;
+	margin-top:7px;
+}
+
+.txt:hover
+{
+	-moz-box-shadow:0 0 12px rgba(0,0,0,0.3);
+	-webkit-box-shadow:0 0 12px rgba(0,0,0,0.3);
+	box-shadow:0 0 6px rgba(0,0,0,0.3);
+}
+
+.txt:focus
+{
+	-moz-box-shadow:0 0 8px #9E5905;
+	-webkit-box-shadow:0 0 8px #9E5905;
+	box-shadow:0 0 8px #9E5905;
+}
+
+a:link
+{
+	color:#B52933;
+	font-weight:700;
+	text-decoration:none;
+}
+
+a:visited
+{
+	color:#9E5905;
+	font-weight:700;
+	text-decoration:none;
+}
+
+a:hover
+{
+	color:#574435;
+	font-weight:700;
+	text-decoration:none;
+}
+
+a:active
+{
+	color:#9E5905;
+	font-weight:700;
+	text-decoration:none;
+}
+
+#menuwrapper a { color:#472B20; }
+#menuwrapper a:hover { color:#472B20; }
+
+.amenu
+{
+	-moz-border-radius:5px;
+	background-color:#E9AE21;
+	border:1px solid #472B20;
+	border-radius:5px;
+	color:#472B20;
+	float:left;
+	margin-right:5px;
+	padding:6px;
+	text-align:center;
+}
+
+.amenu:hover
+{
+	-moz-box-shadow:inset 0 0 2px #35645e;
+	-webkit-box-shadow:inset 0 0 2px #35645e;
+	background-color:#EFCA62;
+	border:1px solid #472B20;
+	box-shadow:inset 0 0 2px #35645e;
+}
+
+#english
+{
+	background-image:url(flags.gif);
+	float:right;
+	height:20px;
+	width:30px;
+	background-position:0 -40px;
+}
+
+#english:hover
+{
+	background:url(flags.gif);
+	background-position:0 -60px;
+	height:20px;
+	width:30px;
+}
+
+#german
+{
+	background-image:url(flags.gif);
+	float:right;
+	height:20px;
+	margin-right:5px;
+	width:30px;
+}
+
+#german:hover
+{
+	background:url(flags.gif);
+	background-position:0 -20px;
+	height:20px;
+	width:30px;
+}
+
+textarea
+{
+	border:1px solid #F6AA3D;
+	border-radius:3px 3px 3px 3px;
+	box-shadow:0 0 2px rgba(0,0,0,0.3);
+}
+
+textarea:hover
+{
+	-moz-box-shadow:0 0 12px rgba(0,0,0,0.3);
+	-webkit-box-shadow:0 0 12px rgba(0,0,0,0.3);
+	box-shadow:0 0 12px rgba(0,0,0,0.3);
+}
+
+textarea:focus
+{
+	-moz-box-shadow:0 0 8px #9E5905;
+	-webkit-box-shadow:0 0 8px #9E5905;
+	box-shadow:0 0 8px #9E5905;
+}
+
+.table1
+{
+	-moz-box-shadow:0 0 2px rgba(0,0,0,0.3);
+	-webkit-box-shadow:0 0 2px rgba(0,0,0,0.3);
+	border-collapse:collapse;
+	box-shadow:0 0 2px rgba(0,0,0,0.3);
+}
+
+.table1 td,.table1 th
+{
+	border:1px solid grey;
+	font-size:14px;
+	padding:3px 7px 2px;
+}
+
+.table1 th
+{
+	background-color:#574435;
+	color:#fff;
+	padding-bottom:4px;
+	padding-top:5px;
+	text-align:left;
+}
+
+input.checkb
+{
+	margin-top:15px;
+}
+
+hr {
+	color:#e6b278;
+}
+
+#frontpageimage {
+background-image:url(frontpage.png);
+height:250px;
+border:2px solid #774F43;
+margin-top:15px;
+border-radius:7px 7px 7px 7px;
+}
+
+#frontpagetext {
+margin-left:20px;
+color: #774F43;
+font-weight:bold;
+}
+</style>
+</head>
+<body>
+<div id="main">
+<div id="menuwrapper">
+<a href="index.php"><img src="wt.png" alt=""></a><br><br>
+<a class=amenu href="index.php" title="Home">Home</a>
+<a class=amenu href="login.php" title="Login">Login</a>
+<a class=amenu href="register.php" title="Register">Register</a>
+<a class=amenu href="buy.php" title="How to buy Bitcoins">Buy Bitcoins</a>
+<a class=amenu href="info.php" title="FAQ">FAQ</a>
+<a class=amenu href="blog.php" title="EasyCoin Blog">Blog</a>
+<a id=english href="?lan=en" title="English"></a>
+<a id=german href="?lan=de" title="German"></a>
+</div>
+<br><br>
+
+<div id="frontpageimage">
+<div id="frontpagetext">
+<h1>Welcome to EasyCoin Bitcoin Wallet</h1>
+Now with free Bitcoin mixer, you will always get new coins back when you withdraw from your EasyCoin wallet!<br>
+You only pay the Bitcoin transaction fee (0.001 BTC).<br>
+We also support completely free account to account transfers.
+
+<br>
+<br>
+<br>
+<a href="register.php"><img src="rocket.png" alt="">Click here to sign up now!</a>
+</div>
+</div>
+
+
+<br><br>
+<h1>Features of EasyCoin:</h1>
+EasyCoin is a newbie friendly easy to use Bitcoin Wallet and Bitcoin Mixer / Laundry.<br>
+With EasyCoin you dont have to worry about anonymity and security when using Bitcoin, we take care of that.<br>
+Our integrated mixer makes sure none of your deposited Bitcoins get sent when you make a withdrawal, but instead its using funds from other users of the wallet which makes it a true Bitcoin Mixer or Bitcoin Laundry without same coin contamination.<br>
+We store all bitcoins encrypted and large amounts only in cold storage, which protects EasyCoin from hackers or other malicious people.<br>
+Storing and laundering / mixing your bitcoins has never been easier.<br>
+We respect our users privacy and dont store any information, if you are worried about someone knowing about you using Bitcoin, you can use our Tor hidden service: <a href="http://easycoinsayj7p5l.onion/">http://easycoinsayj7p5l.onion/</a><br>
+You can use EasyCoin on any device, from your iphone or android phone / tablet to a pc or laptop without installing any programs or apps.<br>
+EasyCoin lets you access your bitcoins from any country and location worldwide.<br>
+
+<h1>What is Bitcoin:</h1>
+Bitcoin is an anonymous peer-to-peer cryptocurrency invented by someone who gave himself the pseudonym Satoshi Nakamoto in 2009.<br>
+It now has millions of users and all bitcoins together are worth over a billion US dollar.<br>
+All you need to use Bitcoins as a payment method on the internet is a Bitcoin Wallet like EasyCoin and some website or person to buy Bitcoins from.<br>
+But bitcoin is only truly anonymous and untraceable if you are really careful not disclosing your identity.<br>
+Easycoin is trying to help with that and protects its users privacy by default instead of having the user take care of it like all other bitcoin wallets.<br>
+An observer wont be able to track you on the bitcoin blockchain when you use EasyCoin bitcoin wallet.<br>
+
+<h1>How to get started:</h1>
+Create an account on EasyCoin, make sure you write down your username and password and optionally your transaction PIN at a secure place.<br>
+Then go to the Buy Bitcoins page for a small list of websites selling bitcoins, there are dozens more, just google for "Buy Bitcoins".<br>
+If you want to buy or sell bitcoins in a really anonymous way without using banks etc, check out localbitcoins.com for person to person bitcoin exchange.<br>
+<br>
+<a href="privacy.php">Privacy Policy</a> - <a href="terms.php">Terms of Use</a> - <a href="messages.php">Contact us</a>
+<br><img src="footer.png" alt="">
+
+</div>
+</body>
+</html>

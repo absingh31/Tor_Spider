@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="pl" dir="ltr"
+
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://panoptykon.org/sites/all/themes/panoptykon_theme/images/panoptykontheme_favicon.png" type="image/png" />
+<link rel="alternate" type="application/rss+xml" title="KanaÅ RSS Fundacji Panoptykon" href="rss.xml" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://panoptykon.org/" />
+<link rel="shortlink" href="https://panoptykon.org/" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="MobileOptimized" content="width" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Strona gÅÃ³wna | Fundacja Panoptykon</title>
+  <link type="text/css" rel="stylesheet" href="https://panoptykon.org/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://panoptykon.org/sites/default/files/css/css_dWBHPbSQWh-19e3Bc29cTHIsefj--RoEVftmVdOAMn4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://panoptykon.org/sites/default/files/css/css_tLQ7ystxJAYB3oKGEVAwAZBE16YDMCR_eAPdSBRNSsY.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://panoptykon.org/sites/default/files/css/css_IQ2aur2WGUq28P7evEsTavB21VzNE9wcNlwc-i-VbyY.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://panoptykon.org/sites/default/files/css/css_FwI6jr8OuN4lSBlPjMd77F7bZDux95ipNN8iBGnpL18.css" media="print" />
+  <script type="text/javascript" src="https://panoptykon.org/sites/all/modules/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.2"></script>
+<script type="text/javascript" src="https://panoptykon.org/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="https://panoptykon.org/misc/drupal.js?orul2y"></script>
+<script type="text/javascript" src="https://panoptykon.org/sites/default/files/languages/pl_qepx93xTa8eCSOf4K76iyJZKS8eCfeOFrIq7d0B0BZw.js?orul2y"></script>
+<script type="text/javascript" src="https://panoptykon.org/sites/all/libraries/colorbox/jquery.colorbox-min.js?orul2y"></script>
+<script type="text/javascript" src="https://panoptykon.org/sites/all/modules/colorbox/js/colorbox.js?orul2y"></script>
+<script type="text/javascript" src="https://panoptykon.org/sites/all/modules/colorbox/styles/plain/colorbox_style.js?orul2y"></script>
+<script type="text/javascript" src="https://panoptykon.org/sites/all/modules/colorbox/js/colorbox_load.js?orul2y"></script>
+<script type="text/javascript" src="https://panoptykon.org/sites/all/modules/colorbox/js/colorbox_inline.js?orul2y"></script>
+<script type="text/javascript" src="https://panoptykon.org/sites/all/libraries/flexslider/jquery.flexslider-min.js?orul2y"></script>
+<script type="text/javascript" src="https://panoptykon.org/sites/all/modules/piwik/piwik.js?orul2y"></script>
+<script type="text/javascript" src="https://panoptykon.org/sites/all/themes/panoptykon_pl_theme/js/remove_has_js.js?orul2y"></script>
+<script type="text/javascript" src="https://panoptykon.org/sites/all/themes/panoptykon_theme/js/script.js?orul2y"></script>
+<script type="text/javascript" src="https://panoptykon.org/sites/all/themes/panoptykon_pl_theme/js/pl.js?orul2y"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"panoptykon_pl_theme","theme_token":"bwoj2OhbPicWAqe1mlB5nB2w7VvWZ-HBmahTRJscLJs","js":{"sites\/all\/modules\/flexslider\/assets\/js\/flexslider.load.js":1,"0":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"public:\/\/languages\/pl_qepx93xTa8eCSOf4K76iyJZKS8eCfeOFrIq7d0B0BZw.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/plain\/colorbox_style.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_inline.js":1,"sites\/all\/libraries\/flexslider\/jquery.flexslider-min.js":1,"sites\/all\/modules\/piwik\/piwik.js":1,"sites\/all\/themes\/panoptykon_pl_theme\/js\/remove_has_js.js":1,"sites\/all\/themes\/panoptykon_theme\/js\/script.js":1,"sites\/all\/themes\/panoptykon_pl_theme\/js\/pl.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/colorbox\/styles\/plain\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/flexslider\/assets\/css\/flexslider_img.css":1,"sites\/all\/libraries\/flexslider\/flexslider.css":1,"sites\/all\/themes\/panoptykon_theme\/css\/bootstrap.min.css":1,"sites\/all\/themes\/panoptykon_theme\/css\/bootstrap_extend.css":1,"sites\/all\/themes\/panoptykon_theme\/css\/style.css":1,"sites\/all\/themes\/panoptykon_pl_theme\/css\/pl_fonts.css":1,"sites\/all\/themes\/panoptykon_pl_theme\/css\/pl.css":1,"sites\/all\/themes\/panoptykon_theme\/css\/print.css":1}},"colorbox":{"transition":"elastic","speed":"350","opacity":"0.85","slideshow":false,"slideshowAuto":true,"slideshowSpeed":"2500","slideshowStart":"start slideshow","slideshowStop":"stop slideshow","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","overlayClose":true,"maxWidth":"90%","maxHeight":"","initialWidth":"300","initialHeight":"","fixed":false,"scrolling":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"flexslider":{"optionsets":{"default":{"namespace":"flex-","selector":".slides \u003E li","easing":"swing","direction":"horizontal","reverse":false,"smoothHeight":false,"startAt":0,"animationSpeed":600,"initDelay":0,"useCSS":true,"touch":true,"video":false,"keyboard":true,"multipleKeyboard":true,"mousewheel":0,"controlsContainer":".flex-control-nav-container","sync":"","asNavFor":"","itemWidth":0,"itemMargin":0,"minItems":0,"maxItems":0,"move":0,"animation":"fade","slideshow":true,"slideshowSpeed":"7000","directionNav":true,"controlNav":false,"prevText":"Poprzedni slajd","nextText":"Nast\u0119pny slajd","pausePlay":true,"pauseText":"Wstrzymaj pokaz slajd\u00f3w","playText":"Wzn\u00f3w pokaz slajd\u00f3w","randomize":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"animationLoop":true,"pauseOnAction":true,"pauseOnHover":false,"manualControls":""}},"instances":{"flexslider-1":"default"}},"piwik":{"trackMailto":1},"urlIsAjaxTrusted":{"\/":true}});
+//--><!]]>
+</script>
+  <!--[if (gte IE 6)&(lte IE 8)]>
+    <script src="/sites/all/themes/panoptykon_theme/js/selectivizr-min.js"></script>
+  <![endif]-->
+  <!--[if lt IE 9]>
+    <script src="/sites/all/themes/panoptykon_theme/js/html5-respond.js"></script>
+  <![endif]-->
+</head>
+<body class="html front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-2506 node-type-page" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">PrzejdÅº do treÅci</a>
+  </div>
+    <header id="header-wrapper" class="container-wrapper with-slider">
+
+  <div id="header" class="header container">   
+	<div id="header-inner" class="header-inner"> 
+	
+          <a href="/" title="Strona gÅÃ³wna" rel="home" id="logo">
+        <img src="https://panoptykon.org/sites/all/themes/panoptykon_pl_theme/logo.png" alt="Strona gÅÃ³wna" />
+      </a> <!-- /#logo -->
+    
+    
+      <div class="region region-header">
+    <div id="block-block-1" class="block block-block languages">
+
+    
+  <div class="content">
+    <p><a class="active" href="#">PL</a> | <a href="https://en.panoptykon.org">EN</a></p>
+  </div>
+</div>
+<div id="block-search-form" class="block block-search">
+
+    
+  <div class="content">
+    <form action="/" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+       <!-- <h2 class="element-invisible">Formularz wyszukiwania</h2> -->
+    
+  <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Szukaj </label>
+ <input title="WprowadÅº sÅowa, ktÃ³re majÄ zostaÄ wyszukane." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Szukaj" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-6O2_viLBcslIKDOdjhRUcTj110tfe6Rn-MWClyXCOoI" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+  </div>
+
+          <nav id="main-menu" role="navigation" class="main-menu navigation clearfix">
+        <ul id="main-menu-links" class="links main-menu-links"><li class="menu-218 first active"><a href="/" title="" class="active">Start</a></li>
+<li class="menu-517"><a href="/idea" title="">Idea</a></li>
+<li class="menu-518"><a href="/organizacja" title="">Organizacja</a></li>
+<li class="menu-519"><a href="/ludzie" title="">Ludzie</a></li>
+<li class="menu-520"><a href="/corobimy" title="">Co robimy</a></li>
+<li class="menu-586"><a href="/tematy">Tematy</a></li>
+<li class="menu-522"><a href="/biblio/infografiki" title="">Biblioteka</a></li>
+<li class="menu-534"><a href="/w_mediach/polecane" title="">W mediach</a></li>
+<li class="menu-900"><a href="/oferta-szkoleniowa" title="">Szkolenia</a></li>
+<li class="menu-594 last"><a href="/kontakt">Kontakt</a></li>
+</ul>      </nav> <!-- /#main-menu -->
+        
+</div></div></header> <!--  /#header-inner, /#header, /#header-wrapper -->
+
+      <div class="region region-slider">
+    <div id="block-views-promobox-slider-block" class="block block-views">
+
+    
+  <div class="content">
+    <div class="view view-promobox-slider view-id-promobox_slider view-display-id-block view-dom-id-3d453c85ae09bc7a06917319ba879cd0">
+        
+  
+  
+      <div class="view-content">
+      <div  id="flexslider-1" class="flexslider">
+  <ul class="slides"><li>  
+  <div class="views-field views-field-field-slider-image">        <div class="field-content"><a href="/wiadomosc/poradnik-bingo-12-wdrazanie-zmiany"><img typeof="foaf:Image" src="https://panoptykon.org/sites/default/files/styles/flexslider_full/public/leadimage-artykuly-w-skrocie/plan-2372176_640.jpg?itok=mfjL05q3" width="890" height="445" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/wiadomosc/poradnik-bingo-12-wdrazanie-zmiany">Poradnik BINGO 12. WdraÅ¼anie zmiany</a></span>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="/wiadomosc/poradnik-bingo-12-wdrazanie-zmiany" title='<a href="/wiadomosc/poradnik-bingo-12-wdrazanie-zmiany">Poradnik BINGO 12. WdraÅ¼anie zmiany</a>'>Zobacz wiÄcej</a></span>  </div></li>
+<li>  
+  <div class="views-field views-field-field-slider-image">        <div class="field-content"><a href="/parkometry"><img typeof="foaf:Image" src="https://panoptykon.org/sites/default/files/styles/flexslider_full/public/slajder/parkometry.jpg?itok=95nSVzTD" width="890" height="445" alt="Element dekoracyjny" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/parkometry">Powiedz ânie!â wÅcibskim parkometrom</a></span>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="/parkometry" title='<a href="/parkometry">Powiedz ânie!â wÅcibskim parkometrom</a>'>Zobacz wiÄcej</a></span>  </div></li>
+<li>  
+  <div class="views-field views-field-field-slider-image">        <div class="field-content"><a href="/sruba-fiskalna"><img typeof="foaf:Image" src="https://panoptykon.org/sites/default/files/styles/flexslider_full/public/slajder/data-978962_1280.jpg?itok=6S0QbT3b" width="890" height="445" alt="Korytarz Big Data. CC0 Public domain via Pixabay" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/sruba-fiskalna">10 pytaÅ o masowÄ i prewencyjnÄ kontrolÄ transakcji finansowych</a></span>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="/sruba-fiskalna" title='<a href="/sruba-fiskalna">10 pytaÅ o masowÄ i prewencyjnÄ kontrolÄ transakcji finansowych</a>'>Zobacz wiÄcej</a></span>  </div></li>
+<li>  
+  <div class="views-field views-field-field-slider-image">        <div class="field-content"><a href="/wiadomosc/porozmawiajmy-o-pieniadzach"><img typeof="foaf:Image" src="https://panoptykon.org/sites/default/files/styles/flexslider_full/public/leadimage-artykuly-w-skrocie/wallet-2292428_640.jpg?itok=t4lh1-YS" width="890" height="445" alt="Portfel pod lupÄ. CC0 Public domain via Pixabay" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/wiadomosc/porozmawiajmy-o-pieniadzach">Porozmawiajmy o pieniÄdzach</a></span>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="/wiadomosc/porozmawiajmy-o-pieniadzach" title='<a href="/wiadomosc/porozmawiajmy-o-pieniadzach">Porozmawiajmy o pieniÄdzach</a>'>Zobacz wiÄcej</a></span>  </div></li>
+<li>  
+  <div class="views-field views-field-field-slider-image">        <div class="field-content"><a href="/blokowanie-sieci"><img typeof="foaf:Image" src="https://panoptykon.org/sites/default/files/styles/flexslider_full/public/leadimage-artykuly-w-skrocie/img_7907-1.jpg?itok=uyLWBBk2" width="890" height="445" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/blokowanie-sieci">10 powodÃ³w, dla ktÃ³rych blokowanie Internetu to zÅy pomysÅ</a></span>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="/blokowanie-sieci" title='<a href="/blokowanie-sieci">10 powodÃ³w, dla ktÃ³rych blokowanie Internetu to zÅy pomysÅ</a>'>Zobacz wiÄcej</a></span>  </div></li>
+</ul></div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+  </div>
+
+
+
+<div class="container-wrapper" id="main-wrapper">
+  <div id="main" role="main" class="container main">
+     <div class="row">
+        
+           
+             <aside id="sidebar-first" class="col-sm-4 sidebar sidebar-first"> 
+			    <div id="sidebar-first-inner-front">
+                   <div class="region region-sidebar-first">
+    <div id="block-block-7" class="block block-block picture-links clearfix">
+
+    
+  <div class="content">
+    <div><a class="info-link" href="/newsletter" title="BÄdÅº na bieÅ¼Äco"><span>BÄdÅº</span><br />
+na bieÅ¼Äco</a><a class="support-link" href="/wspieraj" title="Wspieraj Panoptykon [link przenosi na stronÄ crm.panoptykon.org]"><span>Wspieraj</span><br />
+Panoptykon</a><a class="be-active-link" href="/dzialaj" title="DziaÅaj"><span>DziaÅaj</span></a></div>
+    </div>
+</div>
+  </div>
+				</div> 
+             </aside> <!-- /#sidebar-first -->
+             
+         <div id="page" class="page col-sm-8">
+             
+             
+			 	
+              
+             <a id="main-content"></a>
+                                                  <h1 class="title" id="page-title">
+                        Strona gÅÃ³wna                    </h1>
+                                   
+                            <div class="tabs">
+                                   </div>
+                        
+                  
+                        
+						
+							<div class="content-triple-wrapper row">
+											<div id="content-triple-left" class="col-sm-4 content-triple content-triple-left">
+							  <div class="region region-content-triple-left">
+    <div id="block-views-16c125c6b107362479751d9e0d505778" class="block block-views">
+
+    <h2><a href="/informacje" class="block-title-link">Informacje</a></h2>
+  
+  <div class="content">
+    <div class="view view-main-page-blocks view-id-main_page_blocks view-display-id-block_information not-list view-dom-id-2f59d4d9697675ad17f1bf8dcc6628f9">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field views-field-type-1 short_text">        <span class="field-content">W skrÃ³cie</span>  </div>  
+  <div class="views-field views-field-title">        <h3 class="field-content"><a href="/wiadomosc/sruba-fiskalna-w-oczekiwaniu-na-kolejna-wersje-przepisow">Åruba fiskalna: w oczekiwaniu na kolejnÄ wersjÄ przepisÃ³w</a></h3>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content">05.07.2017</span>  </div>  
+  <div class="views-field views-field-body">        <span class="field-content">Ministerstwo FinansÃ³w wycofaÅo siÄ z prac nad projektem zobowiÄzujÄcym banki do przekazywania skarbÃ³wce dobowych wyciÄgÃ³w bankowych przedsiÄbiorcÃ³w...</span>  </div></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field views-field-type-1 text">        <span class="field-content">ArtykuÅ</span>  </div>  
+  <div class="views-field views-field-title">        <h3 class="field-content"><a href="/wiadomosc/jak-bedzie-wygladac-przyszlosc-targetowanej-reklamy">Jak bÄdzie wyglÄdaÄ przyszÅoÅÄ targetowanej reklamy?</a></h3>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content">28.06.2017</span>  </div>  
+  <div class="views-field views-field-body">        <span class="field-content">WyobraÅº sobie Internet, w ktÃ³rym z eksploatowanego surowca stajesz siÄ klientem. Sam/-a decydujesz o tym, jakie informacje na TwÃ³j temat sÄ zbierane...</span>  </div></li>
+          <li class="views-row views-row-3 views-row-odd views-row-last">  
+  <div class="views-field views-field-type-1 text">        <span class="field-content">ArtykuÅ</span>  </div>  
+  <div class="views-field views-field-title">        <h3 class="field-content"><a href="/wiadomosc/unijny-projekt-ochrony-prywatnosci-w-internecie-potrzebuje-wzmocnienia">Unijny projekt ochrony prywatnoÅci w Internecie potrzebuje wzmocnienia? </a></h3>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content">23.06.2017</span>  </div>  
+  <div class="views-field views-field-body">        <span class="field-content">W styczniu tego roku Komisja Europejska zaprezentowaÅa projekt przepisÃ³w, ktÃ³re majÄ regulowaÄ ochronÄ prywatnoÅci uÅ¼ytkownikÃ³w Internetu. Projekt,...</span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+  </div>
+						</div> <!-- /#content-triple-left -->
+																<div id="content-triple-middle" class="col-sm-4 content-triple content-triple-middle">
+							  <div class="region region-content-triple-middle">
+    <div id="block-views-main-page-blocks-block-actions" class="block block-views">
+
+    <h2><a href="/dzialania" class="block-title-link">DziaÅania</a></h2>
+  
+  <div class="content">
+    <div class="view view-main-page-blocks view-id-main_page_blocks view-display-id-block_actions not-list view-dom-id-7e32fb208c80d81272f18c84ac377677">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field views-field-type-1 short_text">        <span class="field-content">W skrÃ³cie</span>  </div>  
+  <div class="views-field views-field-title">        <h3 class="field-content"><a href="/wiadomosc/nasze-uwagi-do-nowych-przepisow-o-ochronie-danych-osobowych">Nasze uwagi do nowych przepisÃ³w o ochronie danych osobowych</a></h3>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content">02.07.2017</span>  </div>  
+  <div class="views-field views-field-body">        <span class="field-content">Ministerstwo Cyfryzacji juÅ¼ w marcu przedstawiÅo roboczy projekt nowej ustawy o ochronie danych osobowych. Projekt jest czÄÅciÄ unijnej reformy...</span>  </div></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field views-field-type-1 text">        <span class="field-content">ArtykuÅ</span>  </div>  
+  <div class="views-field views-field-title">        <h3 class="field-content"><a href="/wiadomosc/droga-przez-meke-czyli-w-sadzie-z-skw">Droga przez mÄkÄ, czyli w sÄdzie z SKW</a></h3>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content">28.06.2017</span>  </div>  
+  <div class="views-field views-field-body">        <span class="field-content">Naczelny SÄd Administracyjny oddaliÅ we wtorek skargÄ kasacyjnÄ SÅuÅ¼by Kontrwywiadu Wojskowego od wyroku sÄdu pierwszej instancji, ktÃ³ry stwierdzaÅ,...</span>  </div></li>
+          <li class="views-row views-row-3 views-row-odd views-row-last">  
+  <div class="views-field views-field-type-1 short_text">        <span class="field-content">W skrÃ³cie</span>  </div>  
+  <div class="views-field views-field-title">        <h3 class="field-content"><a href="/wiadomosc/dyrektywa-policyjna-co-sie-dzieje">Dyrektywa policyjna â co siÄ dzieje?</a></h3>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content">26.06.2017</span>  </div>  
+  <div class="views-field views-field-body">        <span class="field-content">27 kwietnia 2016 r. Parlament Europejski i Rada UE przyjÄÅy tzw. dyrektywÄ policyjnÄ. Ma ona zostaÄ wdroÅ¼ona do polskiego porzÄdku prawnego do 6 maja...</span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+  </div>
+						</div> <!-- /#content-triple-middle -->
+																<div id="content-triple-right" class="col-sm-4 content-triple content-triple-right">
+							  <div class="region region-content-triple-right">
+    <div id="block-views-a54cee6eaaaa949f7963349e5cb2c880" class="block block-views">
+
+    <h2><a href="/wiedza" class="block-title-link">Wiedza</a></h2>
+  
+  <div class="content">
+    <div class="view view-main-page-blocks view-id-main_page_blocks view-display-id-block_knowledge not-list view-dom-id-8eddee4adab5fe8cd6112f38fc885c13">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field views-field-type-1 text">        <span class="field-content">ArtykuÅ</span>  </div>  
+  <div class="views-field views-field-title">        <h3 class="field-content"><a href="/blokowanie-sieci">10 powodÃ³w, dla ktÃ³rych blokowanie Internetu to zÅy pomysÅ</a></h3>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content">29.06.2017</span>  </div>  
+  <div class="views-field views-field-body">        <span class="field-content">Blokowanie Internetu w walce z terrorystami, nielegalnym hazardem â a ostatnio teÅ¼ naduÅ¼yciami finansowymi i Uberem â to trend, ktÃ³ry na dobre...</span>  </div></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field views-field-type-1 text">        <span class="field-content">ArtykuÅ</span>  </div>  
+  <div class="views-field views-field-title">        <h3 class="field-content"><a href="/wiadomosc/poradnik-bingo-12-wdrazanie-zmiany">Poradnik BINGO 12. WdraÅ¼anie zmiany</a></h3>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content">23.06.2017</span>  </div>  
+  <div class="views-field views-field-body">        <span class="field-content">Podczas lektury poprzednichÂ odcinkÃ³wÂ Poradnika BINGOÂ zapewne nie raz przemknÄÅa Wam przez gÅowÄ myÅl: âAha, wiedza wiedzÄ, ale jak to wszystko...</span>  </div></li>
+          <li class="views-row views-row-3 views-row-odd views-row-last">  
+  <div class="views-field views-field-type-1 text">        <span class="field-content">ArtykuÅ</span>  </div>  
+  <div class="views-field views-field-title">        <h3 class="field-content"><a href="/wiadomosc/poradnik-bingo-11-wdrazanie-zmiany-ktora-wymaga-wspolpracy-czyli-o-porozumieniu-bez">Poradnik BINGO 11. WdraÅ¼anie zmiany, ktÃ³ra wymaga wspÃ³Åpracy, czyli o porozumieniu bez przemocy</a></h3>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content">16.06.2017</span>  </div>  
+  <div class="views-field views-field-body">        <span class="field-content">Praca organizacji to w duÅ¼ej mierze praca zespoÅowa. ChoÄ kaÅ¼dy czÅonek/ kaÅ¼da czÅonkini odpowiada za swojÄ dziaÅkÄ, pracujecie na podstawie...</span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+  </div>
+						</div> <!-- /#content-triple-right -->
+									</div><!-- /.content-triple-wrapper -->
+					
+            
+              <div class="region region-content">
+    <article id="node-2506" class="node node-page  node-full clearfix" about="/main" typeof="foaf:Document" role="article">
+
+      <span property="dc:title" content="Strona gÅÃ³wna" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+  
+  
+
+  <div class="content clearfix">
+      </div>
+
+  
+  
+</article>
+  </div>
+            
+         </div> <!-- /#page -->
+
+             
+</div></div></div> <!-- /.row, /#main, /#main-wrapper -->
+
+    <div id="main-bottom-wrapper" class="container-wrapper main-bottom-wrapper">
+       <div id="main-bottom" class="main-bottom container">
+             <div class="region region-main-bottom">
+    <div id="block-block-2" class="block block-block services clearfix">
+
+    
+  <div class="content">
+    <ul><li><a href="http://cyfrowa-wyprawka.org" title="Portal edukacyjny Cyfrowa Wyprawka"><img alt="Logo Cyfrowej Wyprawki" src="/sites/default/files/uploaded/logo_cw.png" /></a></li>
+<li><a href="https://przewodniki.panoptykon.org/" title="Przewodniki Panoptykonu: Perypetie informacji w Internecie | Telefoniczna kopalnia informacji | Å»ycie wÅrÃ³d kamer"><img alt="" src="/sites/default/files/uploaded/przewodniki_logo.png" /></a></li>
+<li><a href="https://panoptykon.org/zabawki-wielkiego-brata" title="Zabawki Wielkiego Brata"><img alt="" src="/sites/default/files/raport-logo-2.png" /></a></li>
+<li><a href="https://filmy.panoptykon.org/" title="Filmy o Å¼yciu pod nadzorem: BezpieczeÅstwo | NowoczesnoÅÄ | WolnoÅÄ | PrywatnoÅÄ"><img alt="" src="/sites/default/files/uploaded/filmy_logo.png" /></a></li>
+</ul>  </div>
+</div>
+  </div>
+    </div></div> <!-- /#main-bottom, /#main-bottom-wrapper -->
+
+<div id="footer-wrapper" class="footer-wrapper container-wrapper">
+
+          <div id="footer" class="footer container">
+	    <div class="row">
+			  <div class="region region-footer">
+    <div id="block-block-15" class="block block-block col-sm-6 links">
+
+    <h2>Przydatne informacje</h2>
+  
+  <div class="content">
+    <ul><li><a class="bip" href="https://bip.panoptykon.org/">BIP</a></li>
+<li><a class="opp" href="https://panoptykon.org/wolnosc-sie-liczy">OPP</a></li>
+<li><a href="/kontakt" target="_self">Kontakt</a></li>
+<li><a href="/tagi-tematyczne">Lista tagÃ³w</a></li>
+<li><a href="/polityka-prywatnosci" target="_self">Polityka prywatnoÅci | ciasteczka (zaktualizowana)</a></li>
+<li><a href="/dla-mediow">Dla mediÃ³w</a></li>
+<li><a href="/mapa-strony" target="_self">Mapa strony</a></li>
+<li><a href="/regulamin-strony" target="_self">Regulamin</a></li>
+</ul>  </div>
+</div>
+<div id="block-block-16" class="block block-block find-us col-sm-3">
+
+    <h2>Na bieÅ¼Äco</h2>
+  
+  <div class="content">
+    <p><a class="social_rss" href="/rss.xml" target="_self" title="RSS">RSS</a><a class="social_n" href="https://crm.panoptykon.org/newsletter" target="_self" title="Newsletter PanOptyka">Newsletter Panoptyka</a><a class="social_twitter" href="http://twitter.com/panoptykon" target="_self" title="Twitter">Twitter</a><a class="social_fb" href="http://www.facebook.com/pages/Panoptykon/152138291035" target="_self" title="Facebook">Facebook</a></p>
+  </div>
+</div>
+<div id="block-block-17" class="block block-block col-sm-3 support-us-belong-to">
+
+    
+  <div class="content">
+    <p><a class="link support-us" href="/wspieraja-nas" title="WspierajÄ nas">WspierajÄ nas</a><a class="link belong-to" href="/nalezymy-do" title="NaleÅ¼ymy do">NaleÅ¼ymy do</a></p>
+  </div>
+</div>
+  </div>
+		</div>	
+      </div> <!-- /#footer -->
+    
+          <div id="footer-bottom" class="footer-bottom container">
+          <div class="region region-footer-bottom">
+    <div id="block-block-5" class="block block-block">
+
+    
+  <div class="content">
+    <div>
+<p>MateriaÅy na stronie panoptykon.org sÄ udostÄpniane na <a href="http://creativecommons.org/licenses/by-sa/3.0/pl/legalcode">licencji Creative Commons Uznanie Autorstwa - Na tych samych warunkach 3.0 PL</a>Â  (chyba Å¼e oznaczono inaczej).</p>
+</div>
+  </div>
+</div>
+<div id="block-block-6" class="block block-block">
+
+    
+  <div class="content">
+    <div>
+<p>Projekt strony: <a href="http://rzeczyobrazkowe.pl/" target="_blank">RzeczyObrazkowe</a> oraz <a href="http://caltha.pl/">Caltha</a>Â | Wykonanie: <a href="http://caltha.pl/">Caltha</a></p>
+</div>
+  </div>
+</div>
+  </div>
+      </div> <!-- /#footer-bottom -->
+        
+</div> <!-- /#footer-wrapper -->
+
+  <script type="text/javascript" src="https://panoptykon.org/sites/all/modules/flexslider/assets/js/flexslider.load.js?orul2y"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _paq = _paq || [];(function(){var u=(("https:" == document.location.protocol) ? "https://piwik.panoptykon.org/" : "http://piwik.panoptykon.org/");_paq.push(["setSiteId", "3"]);_paq.push(["setTrackerUrl", u+"piwik.php"]);_paq.push(["setDoNotTrack", 1]);_paq.push(["disableCookies"]);_paq.push(["trackPageView"]);_paq.push(["setIgnoreClasses", ["no-tracking","colorbox"]]);_paq.push(["enableLinkTracking"]);var d=document,g=d.createElement("script"),s=d.getElementsByTagName("script")[0];g.type="text/javascript";g.defer=true;g.async=true;g.src=u+"piwik.js";s.parentNode.insertBefore(g,s);})();
+//--><!]]>
+</script>
+</body>
+</html>

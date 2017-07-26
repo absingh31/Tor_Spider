@@ -1,0 +1,403 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="description" content="Brainmagic - your #1 source for psychedelics on the deep web - Buy LSD for Bitcoins"/>
+<link rel="icon" type="image/icon" href="favicon.ico">	
+<link rel="shortcut icon" type="image/icon" href="favicon.ico">
+<title>Brainmagic - Biggest .onion psychedelics store - order LSD for Bitcoins online</title>
+<style type="text/css">
+body
+{background-color: #fff;
+	background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAACACAIAAACN9351AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAJpJREFUeNrs0UEKgCAQhWELpaXXaBXd/0LVEUIXGbYIRwytRYtfAmlE5+nXTfOoakavKse1we0ufHJZ1qs76DiZwWSXZb21Q5I7e3asf9GhfB8ccMABBxxwwAEHHHDAAQcccMABBxxwwAGHZwe9LluYvPPnj0kTyrq21rZEevVK5XhfdJBn3+utDiFfjChzJ/XWO5Rz/9zhEGAAqEUpjnv6vsEAAAAASUVORK5CYII=);
+	background-repeat: repeat-x;
+	font:14px Arial,Sans-serif;
+	margin:0;
+	padding:0;}
+	
+#bg {background-color: #fff;
+	background-image:url(bg4.png);
+	margin:0;
+	padding:0;}
+img{border:0;}
+
+.floatimg
+{padding-bottom:5px; padding-right:20px;}
+
+h3{color:#333; font: bold 28px/1em HelveticaNeue, Arial, sans-serif; margin: 5px 0 20px 2px;}
+
+#header{
+	width:892px;
+	height:103px;
+	position:relative;
+	left: 50%;
+	margin-left:-448px;
+	margin-top: 5px;
+	z-index:4;
+	padding: 5px 2px;
+}
+
+#logo {height:69px;width:278px;}
+
+#amenu
+{
+	height: 30px;
+	width: 615px;
+	float: right;
+	position: relative;
+	font-size: 12px;
+	margin-top: -50px;
+	margin-right: -24px;
+}
+
+#amenu ul.menu {
+	position: relative;
+	background: #efefef; 
+	background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
+	background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
+	background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%); 
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	padding:0;
+	margin:0;
+	border-radius: 10px;  
+	list-style: none;
+	position: relative;
+	display: inline-table;
+	text-transform: uppercase;
+}
+	nav ul:after {
+		content: ""; clear: both; display: block;
+	}
+
+ul.menu li {padding: 0; margin: 0 -2px;float:left;}
+ul.menu li:hover {
+	
+	margin: 6px 6px;
+	padding: 3px 0;
+	background-color:#737373;
+	-webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .4), 0 1px #f1f1f1;
+	-moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .4), 0 1px #f1f1f1;
+	box-shadow:inset 0 1px 1px rgba(0, 0, 0, .4), 0 1px #f1f1f1;
+	
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+}
+ul.menu li:hover a {
+			color: #fff;
+			text-shadow:0 1px #505050;
+			position:relative;
+			float:left;
+			padding: 3px 4px;
+		}
+	
+ul.menu li a {
+		display: block;
+		padding:12px;
+		color: #757575; text-decoration: none;
+		text-shadow: 0 1px #fff;
+	}
+	
+ul.menu > li > a .bubble-red, ul.menu > li > a .bubble-wallet {
+	font-size:11px;
+	line-height:11px;
+	padding:1px 4px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	margin-left:4px;
+	position:relative;
+	top:-1px;
+}
+
+ul.menu > li > a .bubble-red {
+	color:#fff;
+	background-color:#df0a0a;
+	text-shadow:0 1px #9d0707;
+	
+	-webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .4), 0 1px #f1f1f1;
+	-moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .4), 0 1px #f1f1f1;
+	box-shadow:inset 0 1px 1px rgba(0, 0, 0, .4), 0 1px #f1f1f1;
+}
+
+ul.menu > li > a .bubble-wallet {
+	color:#fff;
+	background-color:#737373;
+	text-shadow:0 1px #505050;
+	
+	-webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .4), 0 1px #f1f1f1;
+	-moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .4), 0 1px #f1f1f1;
+	box-shadow:inset 0 1px 1px rgba(0, 0, 0, .4), 0 1px #f1f1f1;
+}
+	
+#cp {
+	padding: 14px 20px 5px;
+	float: right;
+	position: relative;
+	margin-top: -10px;
+	margin-right: 50px;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 8px;
+	z-index: -1;
+	}
+#cp a:link {
+	color: #fff;
+	z-index: 0;
+	}
+	
+#cp .divider {color: #FFF;padding:0 10px;}
+#cp a:hover {color: #555;}
+
+#main{
+	background:#FFF;
+	z-index:2;
+	color:#333;
+	border:3px solid #333;
+	border-top: none;
+	border-radius:0 0 10px 10px;
+	margin:10px auto 30px;
+	padding:15px 20px 0;
+	position:relative;
+	width:850px;
+	-moz-box-shadow: 0px 0px 35px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 0px 0px 35px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 35px rgba(0,0,0,0.75)
+}
+
+.txt{
+	border:1px solid #ee8f1f;
+	height:20px;
+	margin-bottom:7px;
+	margin-top:7px;
+	padding: 3px 0;
+	padding-left: 5px;
+	text-align:left;
+	background: #fff;
+	outline: none;
+	-moz-border-radius:    5px;
+	-webkit-border-radius: 5px;
+	border-radius:         5px;
+	-moz-box-shadow:    inset 0 0 1px rgba(0, 0, 0, 0.5), 0 1px 0 rgba(255, 255, 255, 0.7);
+	-webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.5), 0 1px 0 rgba(255, 255, 255, 0.7);
+	box-shadow:         inset 0 0 1px rgba(0, 0, 0, 0.5), 0 1px 0 rgba(255, 255, 255, 0.7);
+}
+
+.txt.form{text-align: center; padding-left: 0;}
+
+.txt:focus
+{border: 1px solid #7fbbf9;
+	-moz-box-shadow:    inset 0 0 1px rgba(0, 0, 0, 0.5), 0 0 3px #7fbbf9;
+	-webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.5), 0 0 3px #7fbbf9;
+	box-shadow:         inset 0 0 1px rgba(0, 0, 0, 0.5), 0 0 3px #7fbbf9;
+	-moz-box-shadow:0 0 10px rgba(0,0,0,0.5);
+	-webkit-box-shadow:0 0 10px rgba(0,0,0,0.5);
+	box-shadow:0 0 10px rgba(0,0,0,0.5);}
+
+a:link
+{
+	color:#ee8f1f;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+a:hover{color:#333;}
+
+textarea{border:2px solid #ee8f1f;border-radius:10px;padding: 10px;}
+
+table {
+    border-spacing: 0; 
+	border-color: gray;}
+
+.table1 th{
+	font:800 18px Arial,sans-serif;
+	text-align: left;
+	padding: 10px;
+	background: #525252;
+	background: -webkit-gradient(linear, left top, left bottom, from(#5e5e5e), to(#434343));
+	background: -moz-linear-gradient(top, #5e5e5e, #434343);
+	border-color: #4c4c4c #313131 #1f1f1f;
+	color: #fff;
+	text-shadow: 0 1px 1px #2e2e2e;
+	-webkit-box-shadow: 0 1px 2px #eaeaea, inset 0 1px 0 #868686;
+	-moz-box-shadow: 0 1px 2px #eaeaea, inset 0 1px 0 #868686;
+	box-shadow: 0 1px 2px #eaeaea, inset 0 1px 0 #868686;}
+
+.table1 th:first-child {
+    -moz-border-radius: 6px 0 0 0;
+    -webkit-border-radius: 6px 0 0 0;
+    border-radius: 6px 0 0 0;}
+
+.table1 th:last-child {
+    -moz-border-radius: 0 6px 0 0;
+    -webkit-border-radius: 0 6px 0 0;
+    border-radius: 0 6px 0 0;}
+
+.table1 th:only-child{
+    -moz-border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;}
+
+.table1 td{
+	text-align: left;
+	padding: 5px 10px;
+	border-left: 2px solid #ffffff;}
+
+.table1 tbody tr:nth-child(odd) {
+    background: #F5F5F5;
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset; 
+    -moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;  
+    box-shadow: 0 1px 0 rgba(255,255,255,.8) inset; }
+
+input.checkb{margin-top:15px;}
+
+hr {border:1px solid #DCDFE4;}
+
+/*Buttons */
+.buttn{
+	display: inline-block;
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+	font: bold 14px/1em HelveticaNeue, Arial, sans-serif;
+	color: #fff !important;
+	padding: 6px 10px;
+	border: 1px solid #dedede;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background: #ee8f1f;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f5b026), to(#f48423));
+	background: -moz-linear-gradient(top, #f5b026, #f48423);
+	border-color: #e6791c #e6791c #d86f15;
+	text-shadow: 0 1px 1px #b85300;
+	border-color: #d0680c;
+	-webkit-box-shadow: 0 0px 0px #d7e9a4, inset 0 0px 0 #f8d898;
+	-moz-box-shadow: 0 1px 0px #d7e9a4, inset 0 0px 0 #f8d898;
+	box-shadow: 0 0px 0px #d7e9a4, inset 0 0px 0 #f8d898;   }
+
+input.buttn,.buttn{
+	*width: auto; /* IE7 Fix */
+	*overflow: visible; /* IE7 Fix */}
+
+.buttn img {border: none; vertical-align: bottom;}
+
+.buttn:hover, .buttn:focus{
+	background: #e38512;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffbb33), to(#eb7b1a));
+	background: -moz-linear-gradient(top, #ffbb33, #eb7b1a);
+	border-color: #d0680c;
+	-webkit-box-shadow: 0 0 1px #d6d6d6, inset 0 1px 0 #ffdf9e;
+	-moz-box-shadow: 0 0 1px #d6d6d6, inset 0 1px 0 #ffdf9e;
+	box-shadow: 0 0 1px #d6d6d6, inset 0 1px 0 #ffdf9e; }
+.buttn:active{
+	background: #ee8f1f;
+	border-color: #d0680c;
+	-webkit-box-shadow: 0 1px 0 #333, inset 0 0 5px #d0680c;
+	-moz-box-shadow: 0 1px 0 #333, inset 0 0 5px #d0680c;
+	box-shadow: 0 1px 0 #333, inset 0 0 5px #d0680c;}
+
+.footer-img{background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAACACAIAAACN9351AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAJpJREFUeNrs0UEKgCAQhWELpaXXaBXd/0LVEUIXGbYIRwytRYtfAmlE5+nXTfOoakavKse1we0ufHJZ1qs76DiZwWSXZb21Q5I7e3asf9GhfB8ccMABBxxwwAEHHHDAAQcccMABBxxwwAGHZwe9LluYvPPnj0kTyrq21rZEevVK5XhfdJBn3+utDiFfjChzJ/XWO5Rz/9zhEGAAqEUpjnv6vsEAAAAASUVORK5CYII=) repeat-x top right;height: 60px;z-index: -9999;margin-top:-60px;}
+.footer {
+	margin-top: -35px;
+	padding: 10px;
+	text-align: center;
+	font-weight:bold;
+	font-size: 12px;
+	color: white;}
+
+
+#checkout
+{font-size:40px;}
+
+#warning {font-weight:bold; color:red;}
+</style>
+</head>
+<body>
+
+<div id="header">
+<a href="index.php"><div id="logo"><img src="logo.png" alt=""></a></div>
+	<div id="amenu">
+        <ul class="menu">
+<li><a href="index.php" title="Products">Products</a></li>
+<li><a href="info.php" title="Frequently Answered Questions">FAQs</a></li>
+<li><a href="register.php" title="Register">Register</a></li>
+<li><a href="login.php" title="Login">Login</a></li>
+		</ul>
+	<div class="clear"></div>
+    </div>
+	</div>
+
+<div id="bg">
+<div id="main">
+
+
+<h3>Brainmagic Psychedelics</h3><img src="products/cat/100/image.jpg" class=floatimg style="float:left" alt="">All products are tested by ourself and reagent or lab tested!<br>
+Shipping from the USA!<br>
+<br><br><br><br><br><br><br><br><table class="table1">
+<thead>
+<tr>
+<th>Product</th><th>Price</th><th>Quantity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>10 Hits LSD - 150ug</td><td>100 USD = 0.039 &#3647;</td><td>
+<form name="cart" method="post" action="cart.php">
+<input value="100" type="hidden" name="id">
+<input value="add" type="hidden" name="action">
+<input value="1" type="text" class="txt" name="menge" size="2"> X <input type="submit" class="buttn" value="Buy now"></form></td>
+</tr>
+<tr>
+<td>50 Hits LSD - 150ug</td><td>400 USD = 0.154 &#3647;</td><td>
+<form name="cart" method="post" action="cart.php">
+<input value="101" type="hidden" name="id">
+<input value="add" type="hidden" name="action">
+<input value="1" type="text" class="txt" name="menge" size="2"> X <input type="submit" class="buttn" value="Buy now"></form></td>
+</tr>
+<tr>
+<td>100 Hits LSD - 150ug</td><td>650 USD = 0.251 &#3647;</td><td>
+<form name="cart" method="post" action="cart.php">
+<input value="102" type="hidden" name="id">
+<input value="add" type="hidden" name="action">
+<input value="1" type="text" class="txt" name="menge" size="2"> X <input type="submit" class="buttn" value="Buy now"></form></td>
+</tr>
+<tr>
+<td>1g Mescaline HCL pure</td><td>120 USD = 0.046 &#3647;</td><td>
+<form name="cart" method="post" action="cart.php">
+<input value="110" type="hidden" name="id">
+<input value="add" type="hidden" name="action">
+<input value="1" type="text" class="txt" name="menge" size="2"> X <input type="submit" class="buttn" value="Buy now"></form></td>
+</tr>
+<tr>
+<td>10g Mescaline HCL pure</td><td>850 USD = 0.328 &#3647;</td><td>
+<form name="cart" method="post" action="cart.php">
+<input value="111" type="hidden" name="id">
+<input value="add" type="hidden" name="action">
+<input value="1" type="text" class="txt" name="menge" size="2"> X <input type="submit" class="buttn" value="Buy now"></form></td>
+</tr>
+<tr>
+<td>1g DMT Freebase</td><td>100 USD = 0.039 &#3647;</td><td>
+<form name="cart" method="post" action="cart.php">
+<input value="120" type="hidden" name="id">
+<input value="add" type="hidden" name="action">
+<input value="1" type="text" class="txt" name="menge" size="2"> X <input type="submit" class="buttn" value="Buy now"></form></td>
+</tr>
+<tr>
+<td>10g DMT Freebase</td><td>800 USD = 0.309 &#3647;</td><td>
+<form name="cart" method="post" action="cart.php">
+<input value="121" type="hidden" name="id">
+<input value="add" type="hidden" name="action">
+<input value="1" type="text" class="txt" name="menge" size="2"> X <input type="submit" class="buttn" value="Buy now"></form></td>
+</tr>
+</tbody>
+</table>
+<br>
+
+
+
+</div>
+<div class="footer-img"></div>
+<div class="footer"></div>
+</div>
+</body>
+</html>

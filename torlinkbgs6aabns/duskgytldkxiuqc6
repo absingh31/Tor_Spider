@@ -1,0 +1,23 @@
+<html>
+<head><title>Example rendezvous points page</title></head>
+<body>
+
+<p>
+This is the example page for <a href="https://www.torproject.org/">Tor's</a>
+rendezvous points system.
+
+<p>
+Read <a href="comsense.html">Thomas Paine's Common Sense</a>.
+
+<p>
+Or read <a href="fedpapers/federa00.htm">The Federalist papers</a>, which were
+also originally published anonymously.
+
+<p>
+(If you were sent here by the Tor help desk, your Tor Browser is
+accessing hidden services normally. If you still cannot reach a
+particular hidden service, then it is most likely offline.)
+
+</body>
+</html>
+
